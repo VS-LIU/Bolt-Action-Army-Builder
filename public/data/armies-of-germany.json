@@ -1,0 +1,2664 @@
+{
+  "nation": {
+    "nationName": "Germany",
+    "nationID": "germany",
+    "nationDescription": "Armies of Germany",
+    "_dataType": "nation",
+    "_source": {
+      "Armies of Germany": null
+    },
+    "nationSpecialRules": [
+      "ruleBlitzkrieg",
+      "ruleInitiativeTraining",
+      "ruleHitlersBuzzSaw",
+      "ruleTigerFear"
+    ]
+  },
+  "platoons": [
+    {
+      "platoonName": "test_platoon_name",
+      "platoonID": "testPlatoon",
+      "platoonNation": "Germany",
+      "platoonDescription": "test sample description text",
+      "_source": {
+        "test_source_name": 9999
+      },
+      "platoonRules": [],
+      "platoonCategories": {
+        "categoriesIncluded": [
+          "officerMandatory",
+          "officerOptional",
+          "forwardObserver",
+          "medic",
+          "infantryMandatory",
+          "infantryOptional"
+        ],
+        "categoriesCustom": [
+          {
+            "_dataType": "category",
+            "categoryID": "aircraft",
+            "categoryName": "new_category_name_Aircraft",
+            "categoryHeading": "custom_heading_aircraft",
+            "categoryUnitQtyMin": 0,
+            "categoryUnitQtyMax": 1,
+            "categoryIsExclusive": false
+          }
+        ]
+      },
+      "platoonUnits": {
+        "unitsIncluded": [],
+        "unitsCustom": []
+      },
+      "_dataType": "platoon"
+    },
+    {
+      "platoonName": "German Reinforced Platoon",
+      "platoonID": "germanReinforcedPlatoon",
+      "platoonNation": "Germany",
+      "platoonDescription": null,
+      "_source": {
+        "Armies of Germany": null,
+        "Bolt Action 2nd Edition Rulebook": null
+      },
+      "platoonRules": [],
+      "platoonCategories": {
+        "categoriesIncluded": [
+          "officerMandatory",
+          "officerOptional",
+          "forwardObserver",
+          "medic",
+          "infantryMandatory",
+          "infantryOptional",
+          "machineGunTeam",
+          "mortarTeam",
+          "sniperTeam",
+          "flamethrowerTeam",
+          "antiTankTeam",
+          "fieldArtillery",
+          "antiAircraftGuns",
+          "antiTankGuns",
+          "armouredCars",
+          "tanks",
+          "tankDestroyers",
+          "antiAircraftVehicles",
+          "selfpropelledArtillery",
+          "transports",
+          "tows"
+        ],
+        "categoriesCustom": []
+      },
+      "platoonUnits": {
+        "unitsIncluded": {
+          "officerMandatory": [
+            "First Lieutenant",
+            "Second Lieutenant",
+            "Waffen-SS First Lieutenant",
+            "Waffen-SS Second Lieutenant"
+          ],
+          "officerOptional": [
+            "Captain",
+            "Major",
+            "Waffen-SS Captain",
+            "Waffen-SS Major"
+          ],
+          "forwardObserver": [
+            "Artillery Forward Observer",
+            "Air Force Forward Observer",
+            "Naval Forward Observer"
+          ],
+          "medic": [
+            "Medic",
+            "Field Ambulance Vehicle",
+            "Sd.Kfz 251/8 Ambulance"
+          ],
+          "infantryMandatory": [
+            "Fallschirmjäger Squad (Early War)",
+            "Fallschirmjäger Squad (Late War)",
+            "Gebirgsjäger Squad (Early War)",
+            "Gebirgsjäger Squad (Late War)",
+            "heerGrenadierSquad",
+            "heerGrenadierSquadVeteran",
+            "heerInfantrySquad",
+            "heerInfantrySquadVeteran",
+            "heerPioneerSquad",
+            "Hitler Youth Squad",
+            "kradschutzenSquad",
+            "Kriegsmarine Squad",
+            "Luftwaffe Field Divisions Squad",
+            "Osttruppen Squad",
+            "Sturmpioniere Squad (Assault Engineer)",
+            "Volks Grenadier Squad",
+            "Volkssturm Squad",
+            "Waffen-SS Cavalry Squad",
+            "Waffen-SS Squad (Early War)",
+            "Waffen-SS Squad (Late War)"
+          ],
+          "infantryOptional": [
+            "Fallschirmjäger Squad (Early War)",
+            "Fallschirmjäger Squad (Late War)",
+            "Gebirgsjäger Squad (Early War)",
+            "Gebirgsjäger Squad (Late War)",
+            "heerGrenadierSquad",
+            "heerGrenadierSquadVeteran",
+            "heerInfantrySquad",
+            "heerInfantrySquadVeteran",
+            "heerPioneerSquad",
+            "Hitler Youth Squad",
+            "kradschutzenSquad",
+            "Kriegsmarine Squad",
+            "Luftwaffe Field Divisions Squad",
+            "Osttruppen Squad",
+            "Sturmpioniere Squad (Assault Engineer)",
+            "Volks Grenadier Squad",
+            "Volkssturm Squad",
+            "Waffen-SS Cavalry Squad",
+            "Waffen-SS Squad (Early War)",
+            "Waffen-SS Squad (Late War)"
+          ],
+          "machineGunTeam": [
+            "German LMG team",
+            "Medium Machine Gun team",
+            "MG34 LMG team",
+            "Tobruk Machine Gun team"
+          ],
+          "mortarTeam": [
+            "Light Mortar Team",
+            "Medium Mortar Team",
+            "Heavy Mortar Team"
+          ],
+          "sniperTeam": [
+            "Sniper Team"
+          ],
+          "flamethrowerTeam": [
+            "Flamethrower Team"
+          ],
+          "antiTankTeam": [
+            "Anti-tank Rifle Team",
+            "Goliath Demolition Team",
+            "Panzerschreck Team"
+          ],
+          "fieldArtillery": [
+            "75mm LG40 Recoilless Artillery",
+            "105mm LG40/1 Recoilless Artillery",
+            "150mm Nebelwerfer 41",
+            "lightArtillery",
+            "Medium Artillery 105mm",
+            "Heavy Artillery 150mm"
+          ],
+          "antiAircraftGuns": [
+            "20mm Flak 38",
+            "20mm Flagvierling 38",
+            "37mm Flak 36",
+            "88m Flak 36 Dual Purpose AA/AT Gun"
+          ],
+          "antiTankGuns": [
+            "37mm Pak 36",
+            "50mm Pak 38",
+            "75mm Pak 40",
+            "88mm Pak 43",
+            "128mm Pak 44",
+            "Panzerbüchse 41"
+          ],
+          "armouredCars": [
+            "Kfz. 13 'Adler' Light Armoured Car",
+            "Motorcycle with Machine-gun Sidecar",
+            "Panzerspähwagen P204(f)",
+            "Sd.Kfz 222 Light Armoured Car",
+            "Sd.Kfz 231 Heavy Armoured Car (6-RAD)",
+            "Sd.Kfz 231 Heavy Armoured Car (8-RAD)",
+            "Sd.Kfz 234/1 Heavy Armoured Car",
+            "Sd.Kfz 234/2 'Puma' Heavy Armoured Car",
+            "Sd.Kfz 234/3 Heavy Armoured Car",
+            "Sd.Kfz 234/4 Heavy Armoured Car",
+            "Sd.Kfz 250/9",
+            "Sd.Kfz 250/10 with 37mm Pak 36",
+            "Sd.Kfz 250/11 with 37mm Pak 36",
+            "Sd.Kfz 251/23 with 20mm autocannon"
+          ],
+          "tanks": [
+            "Flammpanzer B2(f)",
+            "Flammpanzer II Flamingo",
+            "Flammpanzer III",
+            "Panther Ausf A, D and G",
+            "Panzer 38(t)",
+            "Panzer I",
+            "Panzer II Ausf A, B, C, F",
+            "Panzer II Ausf L Luchs",
+            "Panzer III Ausf C, D",
+            "Panzer III Ausf E, F",
+            "Panzer III Ausf G",
+            "panzerIIIHJ",
+            "Panzer III Ausf L, M",
+            "Panzer III Ausf N",
+            "Panzer IV Ausf A",
+            "Panzer IV Ausf B, C, D, E and F",
+            "Panzer IV Ausf G, H, J",
+            "Tiger I",
+            "Tiger II"
+          ],
+          "tankDestroyers": [
+            "Borgward Wanze Ausf C",
+            "Brummbär",
+            "Elefant",
+            "Ferdinand",
+            "Hetzer",
+            "Jagdpanther",
+            "Jagdpanzer IV",
+            "Jagdpanzer IV (L70)",
+            "Jagdtiger",
+            "Marder I (Lorraine Schlepper)",
+            "Marder II",
+            "Marder III Ausf H, M",
+            "Nashorn",
+            "Panzerjäger I",
+            "RSO/Pak 40",
+            "Sd.Kfz 8 with Armoured Cab",
+            "Sd.Kfz 251/22 Pakwagen",
+            "Sd.Kfz 251/22 Flammpanzerwagen",
+            "StuG 33b",
+            "StuG III Ausf A, B, C, D and E",
+            "StuG III Ausf F, G and H",
+            "stugIV",
+            "StuH 42",
+            "Sturmtiger",
+            "U304(f) Armoured Half-Track with PaK 36"
+          ],
+          "antiAircraftVehicles": [
+            "Flakpanzer 38(t)",
+            "Horch 1A Field Car with Flak 38",
+            "Kugelblitz",
+            "Möbelwagen",
+            "Opel Blitz with Flak 38",
+            "Ostwind",
+            "Sd.Kfz 7/1",
+            "Sd.Kfz 7/1 with Armoured Cab",
+            "Sd.Kfz 7/2",
+            "Sd.Kfz 7/2 with Armoured Cab",
+            "Sd.Kfz 10/4 with Flak 38",
+            "Sd.Kfz 251/17",
+            "Sd.Kfz 251/21 Drilling",
+            "Wirbelwind"
+          ],
+          "selfpropelledArtillery": [
+            "Grille",
+            "Hummel",
+            "Panzer I SIG 33",
+            "Panzerwerfer 42",
+            "Sd.Kfz 250/7 Mortar Carrier",
+            "Sd.Kfz 250/8 Stummel",
+            "Sd.Kfz 251/1 Stuka zu Fuss",
+            "Sd.Kfz 251/2 Mortar Carrier",
+            "Sd.Kfz 251/9 Stummel",
+            "Wespe",
+            "Wurfrahmen 40 (Renault UE)"
+          ],
+          "transports": [
+            "Artillerie Schlepper VA 601 (b)",
+            "Heavy Field Car",
+            "Kettenkrad",
+            "Kübelwagen",
+            "Land-Wasser Schlepper",
+            "Maultier Half-track",
+            "Raupenschlepper Ost",
+            "Schwimmwagen",
+            "Sd.Kfz 250/1 Half-track",
+            "Sd.Kfz 251/1 Half-track 'Hanomag'",
+            "Sd.Kfz 251/10",
+            "Sd.Kfz 3 Half-track",
+            "Sd.Kfz 4 Half-track",
+            "Sd.Kfz 6 Half-track",
+            "Sd.Kfz 7 Half-track",
+            "Sd.Kfz 10 Half-track",
+            "truck",
+            "UNIC P107 Half-track"
+          ],
+          "tows": [
+            "Artillerie Schlepper VA 601 (b)",
+            "Heavy Field Car",
+            "horseDrawnLimber",
+            "Kettenkrad",
+            "Land-Wasser Schlepper",
+            "Maultier Half-track",
+            "Raupenschlepper Ost",
+            "Sd.Kfz 250/1 Half-track",
+            "Sd.Kfz 251/1 Half-track 'Hanomag'",
+            "Sd.Kfz 251/10",
+            "Sd.Kfz 3 Half-track",
+            "Sd.Kfz 4 Half-track",
+            "Sd.Kfz 6 Half-track",
+            "Sd.Kfz 7 Half-track",
+            "Sd.Kfz 10 Half-track",
+            "truck",
+            "UNIC P107 Half-track"
+          ]
+        },
+        "unitsCustom": []
+      },
+      "_dataType": "platoon"
+    }
+  ],
+  "defaults": {
+    "defaultPlatoonsList": [
+      "German Reinforced Platoon",
+      "Tank Platoon"
+    ],
+    "defaultCategories": [
+      {
+        "categoryName": "Officer",
+        "categoryID": "officerMandatory",
+        "categoryHeading": "Headquarters",
+        "categoryUnitQtyMin": 1,
+        "categoryUnitQtyMax": 1,
+        "categoryIsExclusive": false,
+        "_isType": "infantry",
+        "_dataType": "category"
+      },
+      {
+        "categoryName": "Higher Officer",
+        "categoryID": "higherOfficer",
+        "categoryHeading": "Headquarters",
+        "categoryUnitQtyMin": 0,
+        "categoryUnitQtyMax": 1,
+        "categoryIsExclusive": false,
+        "_isType": "infantry",
+        "_dataType": "category"
+      },
+      {
+        "categoryName": "Forward Observer",
+        "categoryID": "forwardObserver",
+        "categoryHeading": "Headquarters",
+        "categoryUnitQtyMin": 0,
+        "categoryUnitQtyMax": 1,
+        "categoryIsExclusive": false,
+        "_isType": "infantry",
+        "_dataType": "category"
+      },
+      {
+        "categoryName": "Medic",
+        "categoryID": "medic",
+        "categoryHeading": "Headquarters",
+        "categoryUnitQtyMin": 0,
+        "categoryUnitQtyMax": 1,
+        "categoryIsExclusive": false,
+        "_isType": "infantry",
+        "_dataType": "category"
+      },
+      {
+        "categoryName": "Infantry (required)",
+        "categoryID": "infantryRequired",
+        "categoryHeading": "Infantry",
+        "categoryUnitQtyMin": 2,
+        "categoryUnitQtyMax": 2,
+        "categoryIsExclusive": false,
+        "_isType": "infantry",
+        "_dataType": "category"
+      },
+      {
+        "categoryName": "Infantry (optional)",
+        "categoryID": "infantryOptional",
+        "categoryHeading": "Infantry",
+        "categoryUnitQtyMin": 0,
+        "categoryUnitQtyMax": 3,
+        "categoryIsExclusive": false,
+        "_isType": "infantry",
+        "_dataType": "category"
+      },
+      {
+        "categoryName": "Machine Gun Team",
+        "categoryID": "machineGunTeam",
+        "categoryHeading": "Weapon Teams",
+        "categoryUnitQtyMin": 0,
+        "categoryUnitQtyMax": 1,
+        "categoryIsExclusive": false,
+        "_isType": "infantry",
+        "_dataType": "category"
+      },
+      {
+        "categoryName": "Mortar Team",
+        "categoryID": "mortarTeam",
+        "categoryHeading": "Weapon Teams",
+        "categoryUnitQtyMin": 0,
+        "categoryUnitQtyMax": 1,
+        "categoryIsExclusive": false,
+        "_isType": "infantry",
+        "_dataType": "category"
+      },
+      {
+        "categoryName": "Sniper Team",
+        "categoryID": "sniperTeam",
+        "categoryHeading": "Weapon Teams",
+        "categoryUnitQtyMin": 0,
+        "categoryUnitQtyMax": 1,
+        "categoryIsExclusive": false,
+        "_isType": "infantry",
+        "_dataType": "category"
+      },
+      {
+        "categoryName": "Flamethrower Team",
+        "categoryID": "flamethrowerTeam",
+        "categoryHeading": "Weapon Teams",
+        "categoryUnitQtyMin": 0,
+        "categoryUnitQtyMax": 1,
+        "categoryIsExclusive": false,
+        "_isType": "infantry",
+        "_dataType": "category"
+      },
+      {
+        "categoryName": "Anti-tank Team",
+        "categoryID": "antiTankTeam",
+        "categoryHeading": "Weapon Teams",
+        "categoryUnitQtyMin": 0,
+        "categoryUnitQtyMax": 1,
+        "categoryIsExclusive": false,
+        "_isType": "infantry",
+        "_dataType": "category"
+      },
+      {
+        "categoryName": "Field Artillery",
+        "categoryID": "fieldArtillery",
+        "categoryHeading": "Artillery",
+        "categoryUnitQtyMin": 0,
+        "categoryUnitQtyMax": 1,
+        "categoryIsExclusive": true,
+        "_isType": "artillery",
+        "_dataType": "category"
+      },
+      {
+        "categoryName": "Anti-aircraft Guns",
+        "categoryID": "antiAircraftGuns",
+        "categoryHeading": "Artillery",
+        "categoryUnitQtyMin": 0,
+        "categoryUnitQtyMax": 1,
+        "categoryIsExclusive": true,
+        "_isType": "artillery",
+        "_dataType": "category"
+      },
+      {
+        "categoryName": "Anti-tank Guns",
+        "categoryID": "antiTankGuns",
+        "categoryHeading": "Artillery",
+        "categoryUnitQtyMin": 0,
+        "categoryUnitQtyMax": 1,
+        "categoryIsExclusive": true,
+        "_isType": "artillery",
+        "_dataType": "category"
+      },
+      {
+        "categoryName": "Armoured Cars",
+        "categoryID": "armouredCars",
+        "categoryHeading": "Armoured Cars",
+        "categoryUnitQtyMin": 0,
+        "categoryUnitQtyMax": 1,
+        "categoryIsExclusive": false,
+        "_isType": "vehicle",
+        "_dataType": "category"
+      },
+      {
+        "categoryName": "Tanks",
+        "categoryID": "tanks",
+        "categoryHeading": "Vehicles",
+        "categoryUnitQtyMin": 0,
+        "categoryUnitQtyMax": 1,
+        "categoryIsExclusive": true,
+        "_isType": "vehicle",
+        "_dataType": "category"
+      },
+      {
+        "categoryName": "Tank Destroyers",
+        "categoryID": "tankDestroyers",
+        "categoryHeading": "Vehicles",
+        "categoryUnitQtyMin": 0,
+        "categoryUnitQtyMax": 1,
+        "categoryIsExclusive": true,
+        "_isType": "vehicle",
+        "_dataType": "category"
+      },
+      {
+        "categoryName": "Anti-aircraft Vehicles",
+        "categoryID": "antiAircraftVehicles",
+        "categoryHeading": "Vehicles",
+        "categoryUnitQtyMin": 0,
+        "categoryUnitQtyMax": 1,
+        "categoryIsExclusive": true,
+        "_isType": "vehicle",
+        "_dataType": "category"
+      },
+      {
+        "categoryName": "Self-propelled Artillery",
+        "categoryID": "selfpropelledArtillery",
+        "categoryHeading": "Vehicles",
+        "categoryUnitQtyMin": 0,
+        "categoryUnitQtyMax": 1,
+        "categoryIsExclusive": true,
+        "_isType": "vehicle",
+        "_dataType": "category"
+      },
+      {
+        "categoryName": "Transports",
+        "categoryID": "transports",
+        "categoryHeading": "Transports & Tows",
+        "categoryUnitQtyMin": 0,
+        "categoryUnitQtyMax": 0,
+        "categoryIsExclusive": false,
+        "_isType": "vehicle",
+        "_dataType": "category"
+      },
+      {
+        "categoryName": "Tows",
+        "categoryID": "tows",
+        "categoryHeading": "Transports & Tows",
+        "categoryUnitQtyMin": 0,
+        "categoryUnitQtyMax": 0,
+        "categoryIsExclusive": false,
+        "_isType": "vehicle",
+        "_dataType": "category"
+      }
+    ],
+    "defaultUnitsInfantry": [
+      {
+        "unitName": "Heer Infantry Squad",
+        "unitID": "heerInfantrySquad",
+        "unitSubtitle": null,
+        "unitCategoryLimit": null,
+        "unitPointsBase": {
+          "Inexperienced": null,
+          "Regular": 50,
+          "Veteran": null
+        },
+        "unitPointsAdd": {
+          "Inexperienced": null,
+          "Regular": 10,
+          "Veteran": null
+        },
+        "unitVeterancyOptions": [
+          "Regular"
+        ],
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": null
+        },
+        "unitSpecialRules": {
+          "specialRulesIncluded": [],
+          "specialRulesCustom": []
+        },
+        "unitUpgrades": {
+          "upgradesAvailable": [
+            "upgradeAntitankGrenades",
+            "upgradeBicycle"
+          ],
+          "upgradesCustom": []
+        },
+        "unitDamageValue": 4,
+        "unitComposition": [
+          {
+            "selectionName": "NCO",
+            "selectionID": "selectionNCO",
+            "selectionQtyMin": 1,
+            "selectionQtyMax": 1,
+            "selectionVeterancy": "Regular",
+            "selectionProfiles": {
+              "Rifle": 1
+            },
+            "selectionUpgrades": {
+              "upgradesAvailable": [
+                "upgradeSMGNCO"
+              ],
+              "upgradesCustom": []
+            },
+            "_dataType": "selection"
+          },
+          {
+            "selectionName": "Infantry",
+            "selectionID": "selectionInfantry",
+            "selectionQtyMin": 4,
+            "selectionQtyMax": 9,
+            "selectionVeterancy": "Regular",
+            "selectionProfiles": {
+              "Rifle": 4
+            },
+            "selectionUpgrades": {
+              "upgradesAvailable": [
+                "upgradeLMGInfantry"
+              ],
+              "upgradesCustom": []
+            },
+            "_dataType": "selection"
+          }
+        ],
+        "_isType": "infantry",
+        "_dataType": "unit"
+      },
+      {
+        "unitName": "Heer Infantry Squad (Veteran)",
+        "unitID": "heerInfantrySquadVeteran",
+        "unitSubtitle": null,
+        "unitCategoryLimit": null,
+        "unitPointsBase": {
+          "Inexperienced": null,
+          "Regular": null,
+          "Veteran": 65
+        },
+        "unitPointsAdd": {
+          "Inexperienced": null,
+          "Regular": null,
+          "Veteran": 13
+        },
+        "unitVeterancyOptions": [
+          "Veteran"
+        ],
+        "_source": {
+          "Armies of Germany 2nd Edition": null
+        },
+        "unitSpecialRules": {
+          "specialRulesIncluded": [],
+          "specialRulesCustom": []
+        },
+        "unitUpgrades": {
+          "upgradesAvailable": [
+            "upgradeAntitankGrenades",
+            "upgradeBicycle"
+          ],
+          "upgradesCustom": []
+        },
+        "unitDamageValue": 5,
+        "unitComposition": [
+          {
+            "selectionName": "NCO",
+            "selectionID": "selectionNCO",
+            "selectionQtyMin": 1,
+            "selectionQtyMax": 1,
+            "selectionVeterancy": "Veteran",
+            "selectionProfiles": {
+              "Rifle": 1
+            },
+            "selectionUpgrades": {
+              "upgradesAvailable": [
+                "upgradeSMGNCO"
+              ],
+              "upgradesCustom": []
+            },
+            "_dataType": "selection"
+          },
+          {
+            "selectionName": "Infantry",
+            "selectionID": "selectionInfantry",
+            "selectionQtyMin": 4,
+            "selectionQtyMax": 9,
+            "selectionVeterancy": "Veteran",
+            "selectionProfiles": {
+              "Rifle": 4
+            },
+            "selectionUpgrades": {
+              "upgradesAvailable": [
+                "upgradeLMGInfantry"
+              ],
+              "upgradesCustom": []
+            },
+            "_dataType": "selection"
+          }
+        ],
+        "_isType": "infantry",
+        "_dataType": "unit"
+      },
+      {
+        "unitName": "Kradschützen Squad",
+        "unitID": "kradschutzenSquad",
+        "unitSubtitle": null,
+        "unitCategoryLimit": null,
+        "unitPointsBase": {
+          "Inexperienced": null,
+          "Regular": 60,
+          "Veteran": null
+        },
+        "unitPointsAdd": {
+          "Inexperienced": null,
+          "Regular": 10,
+          "Veteran": null
+        },
+        "unitVeterancyOptions": [
+          "Regular"
+        ],
+        "_source": {
+          "Armies of Germany 2nd Edition": null
+        },
+        "unitSpecialRules": {
+          "specialRulesIncluded": [],
+          "specialRulesCustom": []
+        },
+        "unitUpgrades": {
+          "upgradesAvailable": [
+            "upgradeMotorbike"
+          ],
+          "upgradesCustom": []
+        },
+        "unitDamageValue": 4,
+        "unitComposition": [
+          {
+            "selectionName": "NCO",
+            "selectionID": "selectionNCO",
+            "selectionQtyMin": 1,
+            "selectionQtyMax": 1,
+            "selectionVeterancy": "Regular",
+            "selectionProfiles": {
+              "Rifle": 1
+            },
+            "selectionUpgrades": {
+              "upgradesAvailable": [
+                "upgradeSMGNCO"
+              ],
+              "upgradesCustom": []
+            },
+            "_dataType": "selection"
+          },
+          {
+            "selectionName": "Infantry",
+            "selectionID": "selectionInfantry",
+            "selectionQtyMin": 5,
+            "selectionQtyMax": 8,
+            "selectionVeterancy": "Regular",
+            "selectionProfiles": {
+              "Rifle": 5
+            },
+            "selectionUpgrades": {
+              "upgradesAvailable": [
+                "upgradeLMGInfantry",
+                "upgradeSMGInfantry"
+              ],
+              "upgradesCustom": []
+            },
+            "_dataType": "selection"
+          }
+        ],
+        "unitDescription": "Kradschützen, or motorcycle troops, were a common part of German panzer divisions until 1942, by which time they had largely been replaced by panzer grenadiers mounted in armoured carriers. Their manpower was often recruited from former cavalry units. Although transported on BMW and Zündapp motorcycles (usually with sidecars), these units dismounted to fight. Their missions were to rapidly outflank the enemy, seize forward areas and act as fast reconnaissance units.",
+        "_isType": "infantry",
+        "_dataType": "unit"
+      },
+      {
+        "unitName": "Heer Grenadier Squad",
+        "unitID": "heerGrenadierSquad",
+        "unitSubtitle": null,
+        "unitCategoryLimit": null,
+        "unitPointsBase": {
+          "Inexperienced": null,
+          "Regular": 50,
+          "Veteran": null
+        },
+        "unitPointsAdd": {
+          "Inexperienced": null,
+          "Regular": 10,
+          "Veteran": null
+        },
+        "unitVeterancyOptions": [
+          "Regular"
+        ],
+        "_source": {
+          "Armies of Germany 2nd Edition": null
+        },
+        "unitSpecialRules": {
+          "specialRulesIncluded": [],
+          "specialRulesCustom": []
+        },
+        "unitUpgrades": {
+          "upgradesAvailable": [
+            "upgradeAntitankGrenades"
+          ],
+          "upgradesCustom": []
+        },
+        "unitDamageValue": 4,
+        "unitComposition": [
+          {
+            "selectionName": "NCO",
+            "selectionID": "selectionNCO",
+            "selectionQtyMin": 1,
+            "selectionQtyMax": 1,
+            "selectionVeterancy": "Regular",
+            "selectionProfiles": {
+              "Rifle": 1
+            },
+            "selectionUpgrades": {
+              "upgradesAvailable": [
+                "upgradeARNCO",
+                "upgradeSMGNCO"
+              ],
+              "upgradesCustom": []
+            },
+            "_dataType": "selection"
+          },
+          {
+            "selectionName": "Infantry",
+            "selectionID": "selectionInfantry",
+            "selectionQtyMin": 4,
+            "selectionQtyMax": 9,
+            "selectionVeterancy": "Regular",
+            "selectionProfiles": {
+              "Rifle": 4
+            },
+            "selectionUpgrades": {
+              "upgradesAvailable": [
+                "upgradeARInfantry",
+                "upgradeLMGInfantry",
+                "upgradePanzerfaust",
+                "upgradeSMGInfantry"
+              ],
+              "upgradesCustom": []
+            },
+            "_dataType": "selection"
+          }
+        ],
+        "unitDescription": "In 1943 the title of 'Infantry' was changed to 'Grenadier' to improve esprit de corps and give the poor infantry some of the vaunted panzer grenadier's reputation and kudos. German grenadiers were provided with the best light machine gun of the war and some squads carried two. By the late war, most German grenadier squads were carrying a proportion of StG44 assault rifles or submachine guns instead of rifles to increase their firepower against an enemy increasingly equipped with submachine guns and semi-automatic rifles. However, the exact weaponry carried could vary greatly in practice, and so we allow a squad to be built as follows.",
+        "_isType": "infantry",
+        "_dataType": "unit"
+      },
+      {
+        "unitName": "Heer Grenadier Squad (Veteran)",
+        "unitID": "heerGrenadierSquadVeteran",
+        "unitSubtitle": null,
+        "unitCategoryLimit": null,
+        "unitPointsBase": {
+          "Inexperienced": null,
+          "Regular": null,
+          "Veteran": 65
+        },
+        "unitPointsAdd": {
+          "Inexperienced": null,
+          "Regular": null,
+          "Veteran": 13
+        },
+        "unitVeterancyOptions": [
+          "Veteran"
+        ],
+        "_source": {
+          "Armies of Germany 2nd Edition": null
+        },
+        "unitSpecialRules": {
+          "specialRulesIncluded": [],
+          "specialRulesCustom": []
+        },
+        "unitUpgrades": {
+          "upgradesAvailable": [
+            "upgradeAntitankGrenades"
+          ],
+          "upgradesCustom": []
+        },
+        "unitDamageValue": 5,
+        "unitComposition": [
+          {
+            "selectionName": "NCO",
+            "selectionID": "selectionNCO",
+            "selectionQtyMin": 1,
+            "selectionQtyMax": 1,
+            "selectionVeterancy": "Regular",
+            "selectionProfiles": {
+              "Rifle": 1
+            },
+            "selectionUpgrades": {
+              "upgradesAvailable": [
+                "upgradeARNCO",
+                "upgradeSMGNCO"
+              ],
+              "upgradesCustom": []
+            },
+            "_dataType": "selection"
+          },
+          {
+            "selectionName": "Infantry",
+            "selectionID": "selectionInfantry",
+            "selectionQtyMin": 4,
+            "selectionQtyMax": 9,
+            "selectionVeterancy": "Regular",
+            "selectionProfiles": {
+              "Rifle": 4
+            },
+            "selectionUpgrades": {
+              "upgradesAvailable": [
+                "upgradeARInfantry",
+                "upgradeLMGInfantry",
+                "upgradePanzerfaust",
+                "upgradeSMGInfantry"
+              ],
+              "upgradesCustom": [
+                {
+                  "upgradeID": "upgradeARInfantry",
+                  "upgradeDescription": "Up to 9 men can have assault rifles instead of rifles for +5pts",
+                  "upgradeQtyMax": 9
+                },
+                {
+                  "upgradeID": "upgradeLMGInfantry",
+                  "upgradeDescription": "Up to 2 men can have a light machine gun for +20pts - for each light machine gun included another man becomes the loader",
+                  "upgradeQtyMax": 2
+                },
+                {
+                  "upgradeID": "upgradeSMGInfantry",
+                  "upgradeDescription": "Up to 6 men can have submachine guns instead of rifles for +3pts each.",
+                  "upgradeQtyMax": 6
+                }
+              ]
+            },
+            "_dataType": "selection"
+          }
+        ],
+        "unitDescription": "Those men that survived quickly learnt the art of fieldcraft and became formidable opponents, battle-hardened and well-equipped - a match for any enemy infantry. Panzer grenadiers, the infantry of the panzer divisions, rode to battle in half-tracked, armoured carriers. Well, they did on paper, but in reality a shortage of half-tracks meant that only about 10 percent of panzer grenadier battalions had their carriers, and the other 90 percent relied upon trucks and fought on foot.",
+        "_isType": "infantry",
+        "_dataType": "unit"
+      },
+      {
+        "unitName": "Heer Pioneer Squad",
+        "unitID": "heerPioneerSquad",
+        "unitSubtitle": null,
+        "unitCategoryLimit": null,
+        "unitPointsBase": {
+          "Inexperienced": null,
+          "Regular": null,
+          "Veteran": 65
+        },
+        "unitPointsAdd": {
+          "Inexperienced": null,
+          "Regular": null,
+          "Veteran": 13
+        },
+        "unitVeterancyOptions": [
+          "Veteran"
+        ],
+        "_source": {
+          "Armies of Germany 2nd Edition": null
+        },
+        "unitSpecialRules": {
+          "specialRulesIncluded": [],
+          "specialRulesCustom": []
+        },
+        "unitUpgrades": {
+          "upgradesAvailable": [
+            "upgradeAntitankGrenades"
+          ],
+          "upgradesCustom": []
+        },
+        "unitDamageValue": 5,
+        "unitComposition": [
+          {
+            "selectionName": "NCO",
+            "selectionID": "selectionNCO",
+            "selectionQtyMin": 1,
+            "selectionQtyMax": 1,
+            "selectionVeterancy": "Veteran",
+            "selectionProfiles": {
+              "Rifle": 1
+            },
+            "selectionUpgrades": {
+              "upgradesAvailable": [
+                "upgradeSMGNCO"
+              ],
+              "upgradesCustom": []
+            },
+            "_dataType": "selection"
+          },
+          {
+            "selectionName": "Infantry",
+            "selectionID": "selectionInfantry",
+            "selectionQtyMin": 4,
+            "selectionQtyMax": 9,
+            "selectionVeterancy": "Veteran",
+            "selectionProfiles": {
+              "Rifle": 4
+            },
+            "selectionUpgrades": {
+              "upgradesAvailable": [
+                "upgradeFlamethrowerInfantry",
+                "upgradeLMGInfantry",
+                "upgradeSMGInfantry"
+              ],
+              "upgradesCustom": []
+            },
+            "_dataType": "selection"
+          }
+        ],
+        "_isType": "infantry",
+        "_dataType": "unit"
+      }
+    ],
+    "defaultUnitsArtillery": {
+      "antiTankGuns": [
+        {
+          "unitName": "75mm Pak 40",
+          "unitID": "75Pak40",
+          "unitSubtitle": null,
+          "unitCategoryLimit": null,
+          "unitPointsBase": {
+            "Inexperienced": 88,
+            "Regular": 110,
+            "Veteran": 132
+          },
+          "unitPointsAdd": {
+            "Inexperienced": null,
+            "Regular": null,
+            "Veteran": null
+          },
+          "unitVeterancyOptions": [
+            "Inexperienced",
+            "Regular",
+            "Veteran"
+          ],
+          "_source": {
+            "Armies of Germany 2nd Edition": null
+          },
+          "unitSpecialRules": {
+            "specialRulesIncluded": [
+              "ruleGunShield"
+            ],
+            "specialRulesCustom": []
+          },
+          "unitUpgrades": {
+            "upgradesAvailable": [],
+            "upgradesCustom": []
+          },
+          "unitDamageValue": null,
+          "unitComposition": [
+            {
+              "selectionID": "weaponA",
+              "selectionQtyMin": 1,
+              "selectionProfiles": {
+                "heavyATGun": 1
+              },
+              "selectionUpgrades": {
+                "upgradesAvailable": [],
+                "upgradesCustom": []
+              },
+              "_isType": "artillery",
+              "_dataType": "selection"
+            },
+            {
+              "selectionName": "Crew",
+              "selectionID": "selectionInfantry",
+              "selectionQtyMin": 4,
+              "selectionVeterancy": null,
+              "selectionProfiles": {
+                "none": 1
+              },
+              "selectionUpgrades": {
+                "upgradesAvailable": [],
+                "upgradesCustom": []
+              },
+              "_isType": "artillery",
+              "_dataType": "selection"
+            }
+          ],
+          "_isType": "artillery",
+          "_dataType": "unit"
+        }
+      ],
+      "defaultFieldArtillery": [
+        {
+          "unitName": "Light Artillery",
+          "unitID": "lightArtillery",
+          "unitSubtitle": "75mm le.IG 18",
+          "unitCategoryLimit": null,
+          "unitPointsBase": {
+            "Inexperienced": 40,
+            "Regular": 50,
+            "Veteran": 60
+          },
+          "unitPointsAdd": {
+            "Inexperienced": null,
+            "Regular": null,
+            "Veteran": null
+          },
+          "unitVeterancyOptions": [
+            "Inexperienced",
+            "Regular",
+            "Veteran"
+          ],
+          "_source": {
+            "Armies of Germany 2nd Edition": null
+          },
+          "unitSpecialRules": {
+            "specialRulesIncluded": [
+              "ruleGunShield"
+            ],
+            "specialRulesCustom": []
+          },
+          "unitUpgrades": {
+            "upgradesAvailable": [],
+            "upgradesCustom": []
+          },
+          "unitDamageValue": null,
+          "unitComposition": [
+            {
+              "selectionID": "weaponA",
+              "selectionQtyMin": 1,
+              "selectionProfiles": {
+                "lightHowitzer": 1
+              },
+              "selectionUpgrades": {
+                "upgradesAvailable": [],
+                "upgradesCustom": []
+              },
+              "_isType": "artillery",
+              "_dataType": "selection"
+            },
+            {
+              "selectionName": "Crew",
+              "selectionID": "selectionInfantry",
+              "selectionQtyMin": 3,
+              "selectionVeterancy": null,
+              "selectionProfiles": {
+                "none": 1
+              },
+              "selectionUpgrades": {
+                "upgradesAvailable": [],
+                "upgradesCustom": []
+              },
+              "_isType": "artillery",
+              "_dataType": "selection"
+            }
+          ],
+          "_isType": "artillery",
+          "_dataType": "unit"
+        }
+      ]
+    },
+    "defaultUnitsVehicles": {
+      "defaultTanks": [
+        {
+          "unitName": "Panzer III Ausf H, J",
+          "unitID": "panzerIIIHJ",
+          "unitSubtitle": "Sd.Kfz. 141",
+          "unitCategoryLimit": null,
+          "unitPointsBase": {
+            "Inexperienced": 160,
+            "Regular": 200,
+            "Veteran": 240
+          },
+          "unitVeterancyOptions": [
+            "Inexperienced",
+            "Regular",
+            "Veteran"
+          ],
+          "_source": {
+            "Armies of Germany 2nd Edition": null
+          },
+          "unitSpecialRules": {
+            "specialRulesIncluded": [],
+            "specialRulesCustom": [
+              {
+                "specialRuleName": "Reinforced Rear Armour",
+                "specialRuleID": null,
+                "specialRuleDescription": "The Ausf H and J treat hits against the rear armour as hits against the side armour (i.e. +1 penetration modifier rather than +2).",
+                "_source": {
+                  "Armies of Germany 2nd Edition": null
+                },
+                "_isType": "vehicle",
+                "_dataType": "rule"
+              }
+            ]
+          },
+          "unitUpgrades": {
+            "upgradesAvailable": [],
+            "upgradesCustom": []
+          },
+          "unitComposition": [
+            {
+              "selectionID": "weaponA",
+              "selectionQtyMin": 1,
+              "selectionProfiles": {
+                "mediumATGunVehicle": 1
+              },
+              "selectionGunOptions": [
+                "gunTurretMounted"
+              ],
+              "selectionUpgrades": {
+                "upgradesAvailable": [],
+                "upgradesCustom": []
+              },
+              "_isType": "vehicle",
+              "_dataType": "selection"
+            },
+            {
+              "selectionID": "weaponB",
+              "selectionQtyMin": 1,
+              "selectionProfiles": {
+                "MMGCoAx": 1
+              },
+              "selectionGunOptions": [
+                "gunTurretMounted"
+              ],
+              "selectionUpgrades": {
+                "upgradesAvailable": [],
+                "upgradesCustom": []
+              },
+              "_isType": "vehicle",
+              "_dataType": "selection"
+            },
+            {
+              "selectionID": "weaponC",
+              "selectionQtyMin": 1,
+              "selectionProfiles": {
+                "MMGVehicle": 1
+              },
+              "selectionGunOptions": {
+                "MMGVehicle": [
+                  "gunForwardFacing",
+                  "gunHullMounted"
+                ]
+              },
+              "selectionUpgrades": {
+                "upgradesAvailable": [],
+                "upgradesCustom": []
+              },
+              "_isType": "vehicle",
+              "_dataType": "selection"
+            }
+          ],
+          "unitTransportQty": null,
+          "unitTowOptions": null,
+          "unitDamageValue": 9,
+          "unitMobility": "tracked",
+          "unitDescription": "Principal service: 1941-43. Numbers manufactured: 3,000.",
+          "_isType": "vehicle",
+          "_dataType": "unit"
+        },
+        {
+          "unitName": "StuG IV",
+          "unitID": "stugIV",
+          "unitSubtitle": "Sd.Kfz 167",
+          "unitCategoryLimit": null,
+          "unitPointsBase": {
+            "Inexperienced": 184,
+            "Regular": 230,
+            "Veteran": 276
+          },
+          "unitVeterancyOptions": [
+            "Inexperienced",
+            "Regular",
+            "Veteran"
+          ],
+          "_source": {
+            "Armies of Germany 2nd Edition": null
+          },
+          "unitSpecialRules": {
+            "specialRulesIncluded": [],
+            "specialRulesCustom": []
+          },
+          "unitUpgrades": {
+            "upgradesAvailable": [],
+            "upgradesCustom": []
+          },
+          "unitComposition": [
+            {
+              "selectionID": "weaponA",
+              "selectionQtyMin": 1,
+              "selectionProfiles": {
+                "heavyATGunVehicle": 1
+              },
+              "selectionGunOptions": [
+                "gunCasementMounted",
+                "gunForwardFacing"
+              ],
+              "selectionUpgrades": {
+                "upgradesAvailable": [],
+                "upgradesCustom": []
+              },
+              "_isType": "vehicle",
+              "_dataType": "selection"
+            },
+            {
+              "selectionID": "weaponB",
+              "selectionQtyMin": 1,
+              "selectionProfiles": {
+                "MMGVehicle": 1
+              },
+              "selectionGunOptions": [
+                "gunArc360"
+              ],
+              "selectionUpgrades": {
+                "upgradesAvailable": [],
+                "upgradesCustom": []
+              },
+              "_isType": "vehicle",
+              "_dataType": "selection"
+            }
+          ],
+          "unitTransportQty": null,
+          "unitTowOptions": null,
+          "unitDamageValue": 9,
+          "unitMobility": "tracked",
+          "unitDescription": "Principal service: 1943-45. Numbers manufactured: 9650.",
+          "_isType": "vehicle",
+          "_dataType": "unit"
+        }
+      ],
+      "defaultArmouredCars": [
+        {
+          "unitName": "Sd.Kfz 251/1 Half-track",
+          "unitID": "SDKFZ2511",
+          "unitSubtitle": "Hanomag",
+          "unitCategoryLimit": null,
+          "unitPointsBase": {
+            "Inexperienced": 71,
+            "Regular": 89,
+            "Veteran": 107
+          },
+          "unitVeterancyOptions": [
+            "Inexperienced",
+            "Regular",
+            "Veteran"
+          ],
+          "_source": {
+            "Armies of Germany 2nd Edition": null
+          },
+          "unitSpecialRules": {
+            "specialRulesIncluded": [
+              "ruleOpenTopped"
+            ],
+            "specialRulesCustom": []
+          },
+          "unitUpgrades": {
+            "upgradesAvailable": [],
+            "upgradesCustom": []
+          },
+          "unitComposition": [
+            {
+              "selectionID": "weaponA",
+              "selectionQtyMin": 1,
+              "selectionIsDefault": true,
+              "selectionProfiles": {
+                "MMGVehicle": 1
+              },
+              "selectionGunOptions": [
+                "gunPintleMounted",
+                "gunForwardFacing"
+              ],
+              "selectionUpgrades": {
+                "upgradesAvailable": [],
+                "upgradesCustom": [
+                  {
+                    "upgradeName": "Panzerbüchse 41 (light AT gun)",
+                    "upgradeID": "2511SPZB41",
+                    "upgradeDescription": "May exchange forward-firing MMG for Panzerbüchse 41 for +40pts (SdKfz 251/1s purchased on behalf of Pioneer units only)",
+                    "upgradeTargets": "selection",
+                    "upgradeReplacesWeapon": true,
+                    "upgradeQtyMax": 1,
+                    "upgradePointsCost": 40,
+                    "upgradeIsPerModel": false,
+                    "upgradeIsExclusive": false,
+                    "upgradeExtraReqs": {
+                      "unitsIncluded": {
+                        "heerPioneerSquad": 1
+                      }
+                    },
+                    "upgradeAddsGunOptions": [
+                      "gunForwardFacing",
+                      "gunSqueezeBore"
+                    ],
+                    "upgradeAddsProfile": "lightATGunVehicle",
+                    "_isType": "vehicle",
+                    "_dataType": "upgrade"
+                  }
+                ]
+              },
+              "_isType": "vehicle",
+              "_dataType": "selection"
+            },
+            {
+              "selectionID": "weaponB",
+              "selectionQtyMin": 0,
+              "selectionProfiles": {},
+              "selectionGunOptions": {},
+              "selectionUpgrades": {
+                "upgradesAvailable": [],
+                "upgradesCustom": [
+                  {
+                    "upgradeName": "MMG - pintle-mounted, rear arc",
+                    "upgradeID": "2511MMGRear",
+                    "upgradeDescription": "May add one additional pintle-mounted MMG covering the rear arc for +15pts",
+                    "upgradeTargets": "selection",
+                    "upgradeReplacesWeapon": false,
+                    "upgradeQtyMax": 1,
+                    "upgradePointsCost": 15,
+                    "upgradeIsPerModel": false,
+                    "upgradeIsExclusive": false,
+                    "upgradeExtraReqs": null,
+                    "upgradeAddsGunOptions": [
+                      "gunArcRear"
+                    ],
+                    "upgradeAddsProfile": "MMGVehicle",
+                    "_isType": "vehicle",
+                    "_dataType": "upgrade"
+                  }
+                ]
+              },
+              "_isType": "vehicle",
+              "_dataType": "selection"
+            }
+          ],
+          "unitTransportQty": 12,
+          "unitTowOptions": [
+            "towLightHowitzer",
+            "towMediumHowizter",
+            "towLightATGun",
+            "towMediumATGun",
+            "towHeavyATGun",
+            "towLightAAGun",
+            "towHeavyAAGun"
+          ],
+          "unitDamageValue": 7,
+          "unitMobility": "tracked",
+          "unitDescription": "Principal service: 1939-45. Numbers manufactured: 15,000 all variants.",
+          "_isType": "vehicle",
+          "_dataType": "unit"
+        }
+      ],
+      "defaultTows": [
+        {
+          "unitName": "Horse-drawn Limber",
+          "unitID": "horseDrawnLimber",
+          "unitSubtitle": null,
+          "unitCategoryLimit": null,
+          "unitPointsBase": {
+            "Inexperienced": 8,
+            "Regular": 10,
+            "Veteran": 12
+          },
+          "unitVeterancyOptions": [
+            "Inexperienced",
+            "Regular",
+            "Veteran"
+          ],
+          "_source": {
+            "Armies of Germany 2nd Edition": null
+          },
+          "unitSpecialRules": {
+            "specialRulesIncluded": [
+              "ruleSlow"
+            ],
+            "specialRulesCustom": [
+              {
+                "specialRuleID": "ruleSlow",
+                "specialRuleDescription": "Only when towing: This vehicle has a basic move rate of 6” when Advancing and 12” at a Run."
+              }
+            ]
+          },
+          "unitUpgrades": {
+            "upgradesAvailable": [],
+            "upgradesCustom": []
+          },
+          "unitComposition": [],
+          "unitTransportQty": null,
+          "unitTowOptions": [
+            "towAnyAAGun",
+            "towAnyATGun",
+            "towAnyHowizter"
+          ],
+          "unitDamageValue": 3,
+          "unitMobility": "wheeled",
+          "unitDescription": "The German Army made use of many different types of truck, including those captured from their enemies. Perhaps the most well-known is the Opel Blitz, although the six-wheeled Krupp-Protze was also widely used and is instantly recognisable. We do not differentiate between different types of truck. Trucks were sometimes armed with a pintle-mounted machine gun - primarily for anti-aircraft defence - and we include the option here. Principal service: 1939-45. Numbers manufactured: 350,000.",
+          "_isType": "vehicle",
+          "_dataType": "unit"
+        }
+      ],
+      "defaultTransports": [
+        {
+          "unitName": "Truck",
+          "unitID": "truck",
+          "unitSubtitle": "Opel Blitz, Krupp-Protze, etc.",
+          "unitCategoryLimit": null,
+          "unitPointsBase": {
+            "Inexperienced": 31,
+            "Regular": 39,
+            "Veteran": 47
+          },
+          "unitVeterancyOptions": [
+            "Inexperienced",
+            "Regular",
+            "Veteran"
+          ],
+          "_source": {
+            "Armies of Germany 2nd Edition": null
+          },
+          "unitSpecialRules": {
+            "specialRulesIncluded": [],
+            "specialRulesCustom": []
+          },
+          "unitUpgrades": {
+            "upgradesAvailable": [],
+            "upgradesCustom": []
+          },
+          "unitComposition": [
+            {
+              "selectionID": "weaponA",
+              "selectionQtyMin": 0,
+              "selectionProfiles": {},
+              "selectionGunOptions": {},
+              "selectionUpgrades": {
+                "upgradesAvailable": [],
+                "upgradesCustom": [
+                  {
+                    "upgradeName": "MMG: pintle-mounted, forward arc",
+                    "upgradeID": "2511MMGRear",
+                    "upgradeDescription": "May have a pintle-mounted MMG covering the forward arc for +15pts",
+                    "upgradeTargets": "selection",
+                    "upgradeReplacesWeapon": false,
+                    "upgradeQtyMax": 1,
+                    "upgradePointsCost": 15,
+                    "upgradeIsPerModel": false,
+                    "upgradeIsExclusive": false,
+                    "upgradeExtraReqs": null,
+                    "upgradeAddsGunOptions": [
+                      "gunArcForward"
+                    ],
+                    "upgradeAddsProfile": "MMGVehicle",
+                    "_isType": "vehicle",
+                    "_dataType": "upgrade"
+                  }
+                ]
+              },
+              "_isType": "vehicle",
+              "_dataType": "selection"
+            }
+          ],
+          "unitTransportQty": 12,
+          "unitTowOptions": [
+            "towLightHowitzer",
+            "towLightATGun",
+            "towMediumATGun",
+            "towLightAAGun"
+          ],
+          "unitDamageValue": 6,
+          "unitMobility": "wheeled",
+          "unitDescription": "The German Army made use of many different types of truck, including those captured from their enemies. Perhaps the most well-known is the Opel Blitz, although the six-wheeled Krupp-Protze was also widely used and is instantly recognisable. We do not differentiate between different types of truck. Trucks were sometimes armed with a pintle-mounted machine gun - primarily for anti-aircraft defence - and we include the option here. Principal service: 1939-45. Numbers manufactured: 350,000.",
+          "_isType": "vehicle",
+          "_dataType": "unit"
+        }
+      ],
+      "defaultAmbulances": []
+    },
+    "defaultProfiles": [
+      {
+        "profileName": "No Weapons",
+        "profileID": "none",
+        "profileType": null,
+        "profileRange": null,
+        "profileNumShots": null,
+        "profilePenetration": null,
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 96
+        },
+        "profileSpecialRules": [],
+        "_isType": "infantry",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Rifle",
+        "profileID": "rifle",
+        "profileType": "smallArms",
+        "profileRange": 24,
+        "profileNumShots": 1,
+        "profilePenetration": "n/a",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [],
+        "_isType": "infantry",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Pistol",
+        "profileID": "pistol",
+        "profileType": "smallArms",
+        "profileRange": 6,
+        "profileNumShots": 1,
+        "profilePenetration": 0,
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [
+          "ruleAssault"
+        ],
+        "_isType": "infantry",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Submachine Gun (SMG)",
+        "profileID": "submachineGun",
+        "profileType": "smallArms",
+        "profileRange": 12,
+        "profileNumShots": 2,
+        "profilePenetration": 0,
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [
+          "ruleAssault"
+        ],
+        "_isType": "infantry",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Automatic Rifle",
+        "profileID": "automaticRifle",
+        "profileType": "smallArms",
+        "profileRange": 30,
+        "profileNumShots": 2,
+        "profilePenetration": 0,
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [],
+        "_isType": "infantry",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Assault Rifle",
+        "profileID": "assaultRifle",
+        "profileType": "smallArms",
+        "profileRange": 18,
+        "profileNumShots": 2,
+        "profilePenetration": 0,
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [
+          "ruleAssault",
+          "ruleToughFighters"
+        ],
+        "_isType": "infantry",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Light Machine Gun (LMG)",
+        "profileID": "LMG",
+        "profileType": "smallArms",
+        "profileRange": 36,
+        "profileNumShots": 4,
+        "profilePenetration": 0,
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [
+          "ruleTeam"
+        ],
+        "_isType": "infantry",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Medium Machine Gun",
+        "profileID": "MMG",
+        "profileType": "smallArms",
+        "profileRange": 36,
+        "profileNumShots": 5,
+        "profilePenetration": 0,
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [
+          "ruleTeam",
+          "ruleFixed"
+        ],
+        "_isType": "infantry",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Co-axial MMG",
+        "profileID": "MMGCoAx",
+        "profileType": "smallArms",
+        "profileRange": 36,
+        "profileNumShots": 5,
+        "profilePenetration": 0,
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [],
+        "_isType": "vehicle",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "MMG",
+        "profileID": "MMGVehicle",
+        "profileType": "smallArms",
+        "profileRange": 36,
+        "profileNumShots": 5,
+        "profilePenetration": 0,
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [],
+        "_isType": "vehicle",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Heavy Machine Gun (HMG)",
+        "profileID": "HMG",
+        "profileType": "heavyWeapons",
+        "profileRange": 36,
+        "profileNumShots": 3,
+        "profilePenetration": 1,
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [
+          "ruleTeam",
+          "ruleFixed"
+        ],
+        "_isType": "infantry",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Heavy Machine Gun",
+        "profileID": "HMGVehicle",
+        "profileType": "heavyWeapons",
+        "profileRange": 36,
+        "profileNumShots": 3,
+        "profilePenetration": 1,
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [],
+        "_isType": "vehicle",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Light Automatic Cannon",
+        "profileID": "lightAutoCannon",
+        "profileType": "heavyWeapons",
+        "profileRange": 48,
+        "profileNumShots": 2,
+        "profilePenetration": 2,
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [
+          "ruleTeam",
+          "ruleFixed",
+          "ruleHE1"
+        ],
+        "_isType": "artillery",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Light Autocannon",
+        "profileID": "lightAutoCannonVehicle",
+        "profileType": "heavyWeapons",
+        "profileRange": 48,
+        "profileNumShots": 2,
+        "profilePenetration": 2,
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [
+          "ruleHE1"
+        ],
+        "_isType": "vehicle",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Heavy Automatic Cannon",
+        "profileID": "heavyAutomaticCannon",
+        "profileType": "heavyWeapons",
+        "profileRange": 72,
+        "profileNumShots": 2,
+        "profilePenetration": 3,
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [
+          "ruleTeam",
+          "ruleFixed",
+          "ruleHE1"
+        ],
+        "_isType": "artillery",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Anti-tank Rifle",
+        "profileID": "antiTankRifle",
+        "profileType": "heavyWeapons",
+        "profileRange": 36,
+        "profileNumShots": 1,
+        "profilePenetration": 2,
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [
+          "ruleTeam"
+        ],
+        "_isType": "infantry",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "PIAT",
+        "profileID": "PIAT",
+        "profileType": "heavyWeapons",
+        "profileRange": 12,
+        "profileNumShots": 1,
+        "profilePenetration": 5,
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [
+          "ruleTeam",
+          "ruleShapedCharge"
+        ],
+        "_isType": "infantry",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Bazooka",
+        "profileID": "bazooka",
+        "profileType": "heavyWeapons",
+        "profileRange": 24,
+        "profileNumShots": 1,
+        "profilePenetration": 5,
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [
+          "ruleTeam",
+          "ruleShapedCharge"
+        ],
+        "_isType": "infantry",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Panzerschreck",
+        "profileID": "panzerschreck",
+        "profileType": "heavyWeapons",
+        "profileRange": 24,
+        "profileNumShots": 1,
+        "profilePenetration": 6,
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [
+          "ruleTeam",
+          "ruleShapedCharge"
+        ],
+        "_isType": "infantry",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Panzerfaust",
+        "profileID": "panzerfaust",
+        "profileType": "heavyWeapons",
+        "profileRange": 12,
+        "profileNumShots": 1,
+        "profilePenetration": 6,
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [
+          "ruleOneShot",
+          "ruleShapedCharge"
+        ],
+        "_isType": "infantry",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Light AT Gun",
+        "profileID": "lightATGun",
+        "profileType": "heavyWeapons",
+        "profileRange": 48,
+        "profileNumShots": 1,
+        "profilePenetration": 4,
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [
+          "ruleTeam",
+          "ruleFixed",
+          "ruleHE1"
+        ],
+        "_isType": "artillery",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Light Anti-tank Gun",
+        "profileID": "lightATGunVehicle",
+        "profileType": "heavyWeapons",
+        "profileRange": 48,
+        "profileNumShots": 1,
+        "profilePenetration": 4,
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [
+          "ruleHE1"
+        ],
+        "_isType": "vehicle",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Medium AT Gun",
+        "profileID": "mediumATGun",
+        "profileType": "heavyWeapons",
+        "profileRange": 60,
+        "profileNumShots": 1,
+        "profilePenetration": 5,
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [
+          "ruleTeam",
+          "ruleFixed",
+          "ruleHE1"
+        ],
+        "_isType": "artillery",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Medium Anti-tank Gun",
+        "profileID": "mediumATGunVehicle",
+        "profileType": "heavyWeapons",
+        "profileRange": 60,
+        "profileNumShots": 1,
+        "profilePenetration": 5,
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [
+          "ruleHE1"
+        ],
+        "_isType": "vehicle",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Heavy AT Gun",
+        "profileID": "heavyATGun",
+        "profileType": "heavyWeapons",
+        "profileRange": 72,
+        "profileNumShots": 1,
+        "profilePenetration": 6,
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [
+          "ruleTeam",
+          "ruleFixed",
+          "ruleHE2"
+        ],
+        "_isType": "artillery",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Heavy Anti-tank Gun",
+        "profileID": "heavyATGunVehicle",
+        "profileType": "heavyWeapons",
+        "profileRange": 72,
+        "profileNumShots": 1,
+        "profilePenetration": 6,
+        "_source": {},
+        "profileSpecialRules": [
+          "ruleHE2"
+        ],
+        "_isType": "vehicle",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Super-heavy AT Gun",
+        "profileID": "superHeavyATGun",
+        "profileType": "heavyWeapons",
+        "profileRange": 84,
+        "profileNumShots": 1,
+        "profilePenetration": 7,
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [
+          "ruleTeam",
+          "ruleFixed",
+          "ruleHE3"
+        ],
+        "_isType": "artillery",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Flamethrower (infantry)",
+        "profileID": "flamethrowerInfantry",
+        "profileType": "heavyWeapons",
+        "profileRange": 6,
+        "profileNumShots": "D6",
+        "profilePenetration": 3,
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [
+          "ruleTeam",
+          "Flamethrower"
+        ],
+        "_isType": "infantry",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Flamethrower (vehicle)",
+        "profileID": "flamethrowerVehicle",
+        "profileType": "heavyWeapons",
+        "profileRange": 12,
+        "profileNumShots": "D6+1",
+        "profilePenetration": 3,
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [
+          "Flamethrower"
+        ],
+        "_isType": "vehicle",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Light Mortar",
+        "profileID": "lightMortar",
+        "profileType": "heavyWeapons",
+        "profileRange": "12-24",
+        "profileNumShots": 1,
+        "profilePenetration": "HE",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [
+          "ruleTeam",
+          "ruleIndirectFire",
+          "ruleHE1"
+        ],
+        "_isType": "infantry",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Medium Mortar",
+        "profileID": "mediumMortar",
+        "profileType": "heavyWeapons",
+        "profileRange": "12-60",
+        "profileNumShots": 1,
+        "profilePenetration": "HE",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [
+          "ruleTeam",
+          "ruleFixed",
+          "ruleIndirectFire",
+          "ruleHE2"
+        ],
+        "_isType": "infantry",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Heavy Mortar",
+        "profileID": "heavyMortar",
+        "profileType": "heavyWeapons",
+        "profileRange": "12-72",
+        "profileNumShots": 1,
+        "profilePenetration": "HE",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [
+          "ruleTeam",
+          "ruleFixed",
+          "ruleIndirectFire",
+          "ruleHE3"
+        ],
+        "_isType": "infantry",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Light Howitzer",
+        "profileID": "lightHowitzer",
+        "profileType": "heavyWeapons",
+        "profileRange": "48 (or 24-60)",
+        "profileNumShots": 1,
+        "profilePenetration": "HE",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [
+          "ruleTeam",
+          "ruleFixed",
+          "ruleHowitzer",
+          "ruleHE2"
+        ],
+        "_isType": "artillery",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Medium Howitzer",
+        "profileID": "mediumHowitzer",
+        "profileType": "heavyWeapons",
+        "profileRange": "60 (or 30-72)",
+        "profileNumShots": 1,
+        "profilePenetration": "HE",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [
+          "ruleTeam",
+          "ruleFixed",
+          "ruleHowitzer",
+          "ruleHE3"
+        ],
+        "_isType": "artillery",
+        "_dataType": "profile"
+      },
+      {
+        "profileName": "Heavy Howitzer",
+        "profileID": "heavyHowitzer",
+        "profileType": "heavyWeapons",
+        "profileRange": "72 (or 36-84)",
+        "profileNumShots": 1,
+        "profilePenetration": "HE",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 62
+        },
+        "profileSpecialRules": [
+          "ruleTeam",
+          "ruleFixed",
+          "ruleHowitzer",
+          "ruleHE4"
+        ],
+        "_isType": "artillery",
+        "_dataType": "profile"
+      }
+    ],
+    "defaultUpgrades": [
+      {
+        "upgradeName": "Anti-tank Grenades",
+        "upgradeID": "upgradeAntitankGrenades",
+        "upgradeDescription": "The squad can be given anti-tank grenades for +2pts per man",
+        "upgradeTargets": "unit",
+        "upgradeReplacesWeapon": false,
+        "upgradeQtyMax": null,
+        "upgradePointsCost": 2,
+        "upgradeIsPerModel": true,
+        "upgradeIsExclusive": true,
+        "upgradeExtraReqs": null,
+        "upgradeAddsProfile": "antiTankGrenades",
+        "_dataType": "upgrade"
+      },
+      {
+        "upgradeName": "Assault Rifle",
+        "upgradeID": "upgradeARInfantry",
+        "upgradeDescription": "Up to 2 men can have assault rifles instead of rifles for +5pts",
+        "upgradeTargets": "selection",
+        "upgradeReplacesWeapon": true,
+        "upgradeQtyMax": 2,
+        "upgradePointsCost": 5,
+        "upgradeIsPerModel": false,
+        "upgradeIsExclusive": false,
+        "upgradeExtraReqs": null,
+        "upgradeAddsProfile": "assaultRifle",
+        "_dataType": "upgrade"
+      },
+      {
+        "upgradeName": "Assault Rifle",
+        "upgradeID": "upgradeARNCO",
+        "upgradeDescription": "The NCO can have an assault rifle instead of a rifle for +5pts",
+        "upgradeTargets": "selection",
+        "upgradeReplacesWeapon": true,
+        "upgradeQtyMax": 1,
+        "upgradePointsCost": 5,
+        "upgradeIsPerModel": false,
+        "upgradeIsExclusive": true,
+        "upgradeExtraReqs": null,
+        "upgradeAddsProfile": "assaultRifle",
+        "_dataType": "upgrade"
+      },
+      {
+        "upgradeName": "Bicycles",
+        "upgradeID": "upgradeBicycle",
+        "upgradeDescription": "The entire squad may be mounted upon bicycles for +1 pt per man",
+        "upgradeTargets": "unit",
+        "upgradeReplacesWeapon": false,
+        "upgradeQtyMax": null,
+        "upgradePointsCost": 1,
+        "upgradeIsPerModel": true,
+        "upgradeIsExclusive": false,
+        "upgradeExtraReqs": null,
+        "upgradeAddsProfile": "bicycle",
+        "_dataType": "upgrade"
+      },
+      {
+        "upgradeName": "Flamethrower",
+        "upgradeID": "upgradeFlamethrowerInfantry",
+        "upgradeDescription": "Up to 1 man can have a flamethrower instead of a rifle for +20pts - another man becomes the assistant",
+        "upgradeTargets": "selection",
+        "upgradeReplacesWeapon": true,
+        "upgradeQtyMax": 1,
+        "upgradePointsCost": 20,
+        "upgradeIsPerModel": false,
+        "upgradeIsExclusive": false,
+        "upgradeExtraReqs": null,
+        "upgradeAddsProfile": "flamethrowerInfantry",
+        "_dataType": "upgrade"
+      },
+      {
+        "upgradeName": "Flamethrower",
+        "upgradeID": "upgradeFlamethrowerVehicle",
+        "upgradeDescription": "...",
+        "upgradeTargets": "selection",
+        "upgradeReplacesWeapon": true,
+        "upgradeQtyMax": 1,
+        "upgradePointsCost": 20,
+        "upgradeIsPerModel": false,
+        "upgradeIsExclusive": false,
+        "upgradeExtraReqs": null,
+        "upgradeAddsProfile": "flamethrowerVehicle",
+        "_isType": "vehicle",
+        "_dataType": "upgrade"
+      },
+      {
+        "upgradeName": "LMG",
+        "upgradeID": "upgradeLMGInfantry",
+        "upgradeDescription": "Up to 1 man can have a light machine gun for +20pts - another man becomes the loader",
+        "upgradeTargets": "selection",
+        "upgradeReplacesWeapon": true,
+        "upgradeQtyMax": 1,
+        "upgradePointsCost": 20,
+        "upgradeIsPerModel": false,
+        "upgradeIsExclusive": false,
+        "upgradeExtraReqs": null,
+        "upgradeAddsProfile": "LMG",
+        "_dataType": "upgrade"
+      },
+      {
+        "upgradeName": "Motorbikes",
+        "upgradeID": "upgradeMotorbike",
+        "upgradeDescription": "The entire squad may be mounted upon motorcycles for +5pts per man",
+        "upgradeTargets": "unit",
+        "upgradeReplacesWeapon": false,
+        "upgradeQtyMax": null,
+        "upgradePointsCost": 5,
+        "upgradeIsPerModel": true,
+        "upgradeIsExclusive": false,
+        "upgradeExtraReqs": null,
+        "upgradeAddsProfile": "motorbike",
+        "_dataType": "upgrade"
+      },
+      {
+        "upgradeName": "Panzerfaust",
+        "upgradeID": "upgradePanzerfaust",
+        "upgradeDescription": "Up to 4 men can have a Panzerfaust in addition to other weapons for +5pts each",
+        "upgradeTargets": "selection",
+        "upgradeReplacesWeapon": false,
+        "upgradeQtyMax": 4,
+        "upgradePointsCost": 5,
+        "upgradeIsPerModel": false,
+        "upgradeIsExclusive": true,
+        "upgradeExtraReqs": null,
+        "upgradeAddsProfile": "panzerfaust",
+        "_dataType": "upgrade"
+      },
+      {
+        "upgradeName": "SMG",
+        "upgradeID": "upgradeSMGInfantry",
+        "upgradeDescription": "Up to 1 man can have submachine guns instead of rifles for +3pts each",
+        "upgradeTargets": "selection",
+        "upgradeReplacesWeapon": true,
+        "upgradeQtyMax": 1,
+        "upgradePointsCost": 3,
+        "upgradeIsPerModel": false,
+        "upgradeIsExclusive": false,
+        "upgradeExtraReqs": null,
+        "upgradeAddsProfile": "submachineGun",
+        "_dataType": "upgrade"
+      },
+      {
+        "upgradeName": "SMG",
+        "upgradeID": "upgradeSMGNCO",
+        "upgradeDescription": "The NCO can have a submachine gun instead of a rifle for +3pts",
+        "upgradeTargets": "selection",
+        "upgradeReplacesWeapon": true,
+        "upgradeQtyMax": 1,
+        "upgradePointsCost": 3,
+        "upgradeIsPerModel": false,
+        "upgradeIsExclusive": true,
+        "upgradeExtraReqs": null,
+        "upgradeAddsProfile": "submachineGun",
+        "_dataType": "upgrade"
+      },
+      {}
+    ],
+    "defaultSpecialRules": [
+      {
+        "specialRuleName": "Amphibious",
+        "specialRuleID": "ruleAmphibious",
+        "specialRuleDescription": "An amphibious vehicle can move directly forward only over otherwise impassable deep water at half speed by means of an Advance action, i.e. a vehicle that would normally advance at 12” can move over water at 6”. A vehicle cannot make any other action whilst moving over water, cannot reverse, cannot turn, and will ignore all rules that otherwise oblige it to reverse or go Down. A vehicle that is immobilised whilst in the water is sunk or abandoned and is therefore destroyed together with any occupants.",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 118
+        },
+        "_isType": "vehicle",
+        "_dataType": "rule"
+      },
+      {
+        "specialRuleName": "Assault",
+        "specialRuleID": "ruleAssault",
+        "specialRuleDescription": "This weapon suffers no penalty 'to hit' when moving and shooting. In addition, infantry models armed with an assault weapon count as tough fighters.",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 66
+        },
+        "_isType": "infantry",
+        "_dataType": "rule"
+      },
+      {
+        "specialRuleName": "Command Vehicle",
+        "specialRuleID": "ruleCommandVehicle",
+        "specialRuleDescription": "The command vehicle adds a morale bonus of +1 to itself and to any other friendly armoured vehicle within 12” (but no Snap to action extra dice).",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 118
+        },
+        "_isType": "vehicle",
+        "_dataType": "rule"
+      },
+      {
+        "specialRuleName": "Gun Shield",
+        "specialRuleID": "ruleGunShield",
+        "specialRuleDescription": "If a gun is equipped with a gun shield, the die roll an enemy requires to score damage for a hit from the front arc of the gun as described above is increased by +1. This die roll is modified by the penetration value of the weapon in the usual way. Note that hits from HE (both direct and indirect fire), flamethrowers and close quarters attacks ignore the gun shield rule.",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 95
+        },
+        "_isType": "artillery",
+        "_dataType": "rule"
+      },
+      {
+        "specialRuleName": "Howitzer",
+        "specialRuleID": "ruleHowitzer",
+        "specialRuleDescription": "This weapon can either shoot directly at a target drawing its line of fire 'over open sights' in the normal way, or it can shoot indirect fire as described below. When firing over open sights it has no minimum range. When using indirect fire, a howitzer has a minimum range. This is shown in brackets on the weapon chart - for example, light howitzers have a minimum range of 0-24”. If a howitzer switches from indirect fire to direct fire and then returns to indirect fire, always against the same target, the zeroing-in sequence is reset.",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 95
+        },
+        "_isType": "artillery",
+        "_dataType": "rule"
+      },
+      {
+        "specialRuleName": "Loader",
+        "specialRuleID": "ruleLoader",
+        "specialRuleDescription": "If the weapon is destroyed, the surviving loader simply reverts to an ordinary member of the squad. If the loader is killed or is not within an inch of the firer, the weapon suffers a -1 'to hit' penalty.",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 73
+        },
+        "_isType": "infantry",
+        "_dataType": "rule"
+      },
+      {
+        "specialRuleName": "Low Velocity Gun",
+        "specialRuleID": "ruleLowVelocity",
+        "specialRuleDescription": "The penetration rating of this gun is +3 instead of the usual +4.",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 207
+        },
+        "_isType": "vehicle",
+        "_dataType": "rule"
+      },
+      {
+        "specialRuleName": "Multiple Launcher",
+        "specialRuleID": "ruleMultipleLauncher",
+        "specialRuleDescription": "A multiple launcher counts as a heavy mortar, but its chance of hitting never gets any better than a 6 (no ranging in). When being towed, multiple launchers count as light howitzers.",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 72
+        },
+        "_isType": "artillery",
+        "_dataType": "rule"
+      },
+      {
+        "specialRuleName": "One Shot",
+        "specialRuleID": "ruleOneShot",
+        "specialRuleDescription": "This is a disposable weapon that can be fired only once per game. Once fired replace the model with another model that does not carry the disposable weapon.",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 72
+        },
+        "_isType": "infantry",
+        "_dataType": "rule"
+      },
+      {
+        "specialRuleName": "One-man Turret",
+        "specialRuleID": "ruleOneManTurret",
+        "specialRuleDescription": "A vehicle with this rule must always take an order test when issuing an Advance order, even if the tank is not pinned. In addition, you can fire either the main gun or the rear-mounted machine gun, but not both in the same turn.",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 207
+        },
+        "_isType": "vehicle",
+        "_dataType": "rule"
+      },
+      {
+        "specialRuleName": "Open-topped",
+        "specialRuleID": "ruleOpenTopped",
+        "specialRuleDescription": "Open-topped armoured vehicles are pinned by hits from small-arms in the same way as soft-skins and infantry. If assaulted by infantry open-topped armoured vehicles are destroyed automatically if the vehicle is damaged, in the same was as for soft-skins. If hit by indirect fire then add +1 to the damage result roll to represent the effect of a shot falling into an opentopped vehicle. Note that all hits upon the upper surface of armoured vehicles count +1 penetration regardless of whether the target is open or not - so open-topped armoured vehicles suffer a double penalty: +1 penetration and +1 damage result.",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 118
+        },
+        "_isType": "vehicle",
+        "_dataType": "rule"
+      },
+      {
+        "specialRuleName": "Recce",
+        "specialRuleID": "ruleRecce",
+        "specialRuleDescription": "When reversing, either voluntarily or because of a failed order test (with enemy in its front arc), a recce vehicle can reverse at its full Advance rate (i.e. 12” or 9”) rather than at half rate, and can manoeuvre as if driving forward, i.e. a wheeled vehicle or half-track can make two 90° pivots or and a tracked vehicle can make a single 90° pivot. Recce vehicles that are shot at can perform an `Escape` reaction (p. 119) as long as they have taken no other action that turn yet.",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 118
+        },
+        "_isType": "vehicle",
+        "_dataType": "rule"
+      },
+      {
+        "specialRuleName": "Shaped Charge",
+        "specialRuleID": "ruleShapedCharge",
+        "specialRuleDescription": "Never suffer the -1 penetration modifier for firing at long range.",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 73
+        },
+        "_isType": "infantry",
+        "_dataType": "rule"
+      },
+      {
+        "specialRuleName": "Slow",
+        "specialRuleID": "ruleSlow",
+        "specialRuleDescription": "A vehicle that is designated as slow has a basic move rate of 6” when Advancing and 12” at a Run.",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 119
+        },
+        "_isType": "vehicle",
+        "_dataType": "rule"
+      },
+      {
+        "specialRuleName": "SlowLoad",
+        "specialRuleID": "ruleSlowLoad",
+        "specialRuleDescription": "A vehicle that has this rule cannot be given an order until at least one other unit on the same side has already been given orders (whether successfully or not). If an army is left with a number of units which all have the slow load special rule, when the army receives its first order dice of the turn, put the dice back in the bag and draw again. The next dice drawn for that army can then be allocated to a model with slow load as if another unit had already been ordered.",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 119
+        },
+        "_isType": "vehicle",
+        "_dataType": "rule"
+      },
+      {
+        "specialRuleName": "Team Weapon (Squad) ",
+        "specialRuleID": "ruleTeamWeaponSquad",
+        "specialRuleDescription": "If a team weapon is included in an infantry squad then choose one model in the squad to become the loader (excluding NCO). When the team weapon is fired, the loader cannot fire his own personal weapon. A minimum of two crew is always needed to fire at full effect. If only one man remains then the weapon suffers a -1 'to hit' penalty. If the weapon is destroyed, the surviving loader simply reverts to an ordinary member of the squad. If the loader is killed or is not within an inch of the firer, the weapon suffers a -1 'to hit' penalty.",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": [
+            43,
+            73
+          ]
+        },
+        "_isType": "infantry",
+        "_dataType": "rule"
+      },
+      {
+        "specialRuleName": "Team Weapon",
+        "specialRuleID": "ruleTeamWeapon",
+        "specialRuleDescription": "A minimum of two crew is always needed to fire at full effect. If only one man remains then the weapon suffers a -1 'to hit' penalty. When the model carrying/ firing the support team weapon is killed, the entire team is considered to be out of action. Crewed weapons and weapons teams reduced to one last crewman also suffer a -1 penalty to its morale value.",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 73
+        },
+        "_isType": "infantry",
+        "_dataType": "rule"
+      },
+      {
+        "specialRuleName": "Tough Fighters",
+        "specialRuleID": "ruleToughFighters",
+        "specialRuleDescription": "When a model with this special rule scores a casualty in close quarters against enemy infantry or artillery units, it can immediately make a second damage roll (but not a third if the second damage roll also scores a kill).",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 91
+        },
+        "_isType": "infantry",
+        "_dataType": "rule"
+      },
+      {
+        "specialRuleName": "Turret Rear-mounted Machine Gun",
+        "specialRuleID": "ruleTurretRearMountedMachineGun",
+        "specialRuleDescription": "When firing, first select a target for the tank main gun (or co-axial machine gun) and resolve it. Whichever arc the main gun has engaged an enemy, the rear-mounted machine gun can only shoot into the opposite arc.",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": 119
+        },
+        "_isType": "vehicle",
+        "_dataType": "rule"
+      },
+      {
+        "specialRuleName": "Blitzkrieg",
+        "specialRuleID": "ruleBlitzkrieg",
+        "specialRuleDescription": "German officers using the 'You men, snap to action' special rule can take one additional order die from the bag and assign it as normal. In other words, a German Second lieutenant (Leutnant) takes two dice instead of one, a German First lieutenant (Oberleutnant) takes three dice, a captain (Hauptmann) take four and a German major takes five!",
+        "_source": {
+          "Armies of Germany": null
+        },
+        "_isType": null,
+        "_dataType": "rule"
+      },
+      {
+        "specialRuleName": "Initiative Training",
+        "specialRuleID": "ruleInitiativeTraining",
+        "specialRuleDescription": "If an infantry squad's NCO is killed, roll a D6. On the score of a 1, the NCO is removed as normal. On the roll of a 2 or higher, one of the other troopers takes over the squad and leads it just as effectively as before. To represent this leave the NCO in place and remove any other model instead (it is assumed the new 'squad leader' swaps his weapons with the ones carried by the NCO, if different). If the NCO is successfully replaced the unit does not suffer the usual -1 morale penalty for losing its NCO.",
+        "_source": {
+          "Armies of Germany": null
+        },
+        "_isType": null,
+        "_dataType": "rule"
+      },
+      {
+        "specialRuleName": "Hitler's Buzz Saw",
+        "specialRuleID": "ruleHitlersBuzzSaw",
+        "specialRuleDescription": "German light and medium machine guns fire one extra shot. Note that this applies to all light and machine guns, both those carried by infantry units and vehicle-mounted ones.",
+        "_source": {
+          "Armies of Germany": null
+        },
+        "_isType": null,
+        "_dataType": "rule"
+      },
+      {
+        "specialRuleName": "Tiger Fear",
+        "specialRuleID": "ruleTigerFear",
+        "specialRuleDescription": "All enemy units that have line of sight to one or more German vehicles with the Tiger fear special rule (see the vehicles section of this army list) suffer from Tiger fear. Units suffering from Tiger fear count as having one extra pin marker on them when taking any order test, except if ordered to Fire against a vehicle causing Tiger fear. Note that this penalty also affects units without any pin marker, which must therefore take an order test on -1 morale to execute orders even if they have no pin markers.",
+        "_source": {
+          "Armies of Germany": null
+        },
+        "_isType": null,
+        "_dataType": "rule"
+      }
+    ],
+    "defaultGunOptions": [
+      {
+        "gunOptionName": "360-degree arc of fire",
+        "gunOptionID": "gunArc360",
+        "gunOptionDescription": null,
+        "_isType": "vehicle",
+        "_dataType": "gunOption"
+      },
+      {
+        "gunOptionName": "Covering the forward arc",
+        "gunOptionID": "gunArcForward",
+        "gunOptionDescription": null,
+        "_isType": "vehicle",
+        "_dataType": "gunOption"
+      },
+      {
+        "gunOptionName": "Casement-mounted",
+        "gunOptionID": "gunCasementMounted",
+        "gunOptionDescription": null,
+        "_isType": "vehicle",
+        "_dataType": "gunOption"
+      },
+      {
+        "gunOptionName": "Enclosed Turret",
+        "gunOptionID": "gunEnclosedTurret",
+        "gunOptionDescription": null,
+        "_isType": "vehicle",
+        "_dataType": "gunOption"
+      },
+      {
+        "gunOptionName": "Forward-facing",
+        "gunOptionID": "gunForwardFacing",
+        "gunOptionDescription": null,
+        "_isType": "vehicle",
+        "_dataType": "gunOption"
+      },
+      {
+        "gunOptionName": "Hull-mounted",
+        "gunOptionID": "gunHullMounted",
+        "gunOptionDescription": null,
+        "_isType": "vehicle",
+        "_dataType": "gunOption"
+      },
+      {
+        "gunOptionName": "Open Turret",
+        "gunOptionID": "gunOpenTurret",
+        "gunOptionDescription": null,
+        "_isType": "vehicle",
+        "_dataType": "gunOption"
+      },
+      {
+        "gunOptionName": "Pintle-mounted",
+        "gunOptionID": "gunPintleMounted",
+        "gunOptionDescription": null,
+        "_isType": "vehicle",
+        "_dataType": "gunOption"
+      },
+      {
+        "gunOptionName": "Remotely operated",
+        "gunOptionID": "gunRemotelyOperated",
+        "gunOptionDescription": null,
+        "_isType": "vehicle",
+        "_dataType": "gunOption"
+      },
+      {
+        "gunOptionName": "Squeeze-bore",
+        "gunOptionID": "gunSqueezeBore",
+        "gunOptionDescription": "At ranges of up to 12\", its base armour penetration is increased by two to a total of +6, at over half range armour penetration is reduced by two instead of the usual one to a total of +2.",
+        "_isType": "vehicle",
+        "_dataType": "gunOption"
+      },
+      {
+        "gunOptionName": "Turret-mounted",
+        "gunOptionID": "gunTurretMounted",
+        "gunOptionDescription": null,
+        "_isType": "vehicle",
+        "_dataType": "gunOption"
+      }
+    ],
+    "defaultDamageValues": {
+      "Inexperienced Infantry or Artillery": 3,
+      "Regular Infantry or Artillery": 4,
+      "Veteran Infantry or Artillery": 5,
+      "Soft-skinned Vehicles": 6,
+      "Armoured Car/Carrier": 7,
+      "Light Tank": 8,
+      "Medium Tank": 9,
+      "Heavy Tank": 10,
+      "Super-heavy Tank": 11
+    },
+    "defaultTowOptions": {
+      "none": "None",
+      "towAnyAAGun": "Any anti-aircraft gun",
+      "towAnyATGun": "Any anti-tank gun",
+      "towAnyHowizter": "Any howitzer",
+      "towLightHowitzer": "Light Howitzer",
+      "towMediumHowizter": "Medium Howitzer",
+      "towHeavyHowitzer": "Heavy Howitzer",
+      "towLightATGun": "Light Anti-tank Gun",
+      "towMediumATGun": "Medium Anti-tank Gun",
+      "towHeavyATGun": "Heavy Anti-tank Gun",
+      "towSuperHeavyATGun": "Super Heavy Anti-tank Gun",
+      "towLightAAGun": "Light Anti-aircraft Gun",
+      "towMediumAAGun": "Medium Anti-aircraft Gun",
+      "towHeavyAAGun": "Heavy Anti-aircraft Gun"
+    },
+    "defaultMobilityOptions": {
+      "mobilityArtillery": "Artillery",
+      "mobilityHalfTracked": "Half-tracked",
+      "mobilityInfantry": "Infantry",
+      "mobilityTracked": "Tracked",
+      "mobilityWheeled": "Wheeled"
+    }
+  }
+}

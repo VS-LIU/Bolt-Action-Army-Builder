@@ -7,11 +7,11 @@ import '/src/app/App.css'
  */
 
 
-export default function ListViewDebug({objectList}: any) {
+export default function ListObjectDebug({objectList}: any) {
     return (
 
         <div className="border-grey-box">
-            <h3> LIST view - Debug</h3>
+            <h3> LIST object - Debug</h3>
             <div>
 
             <pre className='pre-align-left'>{JSON.stringify(objectList, null, 2)}</pre>

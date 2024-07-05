@@ -1,9 +1,7 @@
 import { useEffect, useState } from 'react'
 
 
-
-
-function Card() {
+export default function Card() {
   const [count, setCount] = useState(0);
 
   // useEffect(() => {
@@ -12,6 +10,7 @@ function Card() {
 
   const handleClick = () => {
     setCount(count + 1);
+    console.log(count);
   };
 
   return (
@@ -25,6 +24,3 @@ function Card() {
     </div>
   );
 }
-
-
-export default Card

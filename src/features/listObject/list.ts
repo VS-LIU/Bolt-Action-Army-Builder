@@ -13,7 +13,7 @@ type pointsCounter = {
     "isVisible": boolean
 }
 
-export class ArmyList {
+export class BoltActionList {
     listName: string;
     listID: string = uuidv4();
     listOwner: string = "+++TODO";

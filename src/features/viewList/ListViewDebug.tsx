@@ -1,4 +1,4 @@
-import '../app/App.css'
+import '/src/app/App.css'
 
 /**
  * Displays the list object in plain text.
@@ -7,14 +7,14 @@ import '../app/App.css'
  */
 
 
-export function ListViewDebug({objectList}: any) {
-// export function ListViewDebug() {
+export default function ListViewDebug({objectList}: any) {
     return (
 
         <div className="border-grey-box">
-            <h3> LIST object (backend)</h3>
+            <h3> LIST view - Debug</h3>
             <div>
-                {objectList}
+
+            <pre className='pre-align-left'>{JSON.stringify(objectList, null, 2)}</pre>
             </div>
         </div >
 

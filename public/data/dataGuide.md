@@ -32,16 +32,16 @@
 
 ### `defaultCategory` object
 
-| key                   | type      | default                                          | nulls | notes                                                                                       |
-| --------------------- | --------- | ------------------------------------------------ | ----- | ------------------------------------------------------------------------------------------- |
-| `categoryName`        | `string`  |                                                  | no    | Frontend use. First letter should be capitalized e.g. `"Bomber Aircraft"`                   |
-| `categoryID`          | `string`  |                                                  | no    | Backend identifier. First letter should be lowercase e.g. `"bomberAircraft"`                |
-| `categoryHeading`     | `string`  |                                                  | no    | The frontend heading it should belong under e.g. `"Aircraft"`                               |
-| `categoryUnitQtyMin`  | `number`  | `0`                                              | no    | The minimum number of units you must add to this category.                                  |
-| `categoryUnitQtyMax`  | `number`  |                                                  | no    | The maximum number of units you can add to this category. `0` = unlimited                   |
-| `categoryIsExclusive` | `boolean` | `false`                                          | no    | If `true`, unit quantity is shared among other categories under the  same `categoryHeading` |
-| `_isType`             | `string`  | `"artillery"` \|\| `"infantry"` \|\| `"vehicle"` | no    | metadata e.g. `"aircraft"`                                                                  |
-| `_dataType`           | `string`  | `"category"`                                     | no    | metadata.                                                                                   |
+| key                   | type      | default                                      | nulls | notes                                                                                       |
+| --------------------- | --------- | -------------------------------------------- | ----- | ------------------------------------------------------------------------------------------- |
+| `categoryName`        | `string`  |                                              | no    | Frontend use e.g. `"Bomber Aircraft"`                                                       |
+| `categoryID`          | `string`  |                                              | no    | Backend identifier  e.g. `"bomberAircraft"`                                                 |
+| `categoryHeading`     | `string`  |                                              | no    | The frontend heading it should belong under e.g. `"Aircraft"`                               |
+| `categoryUnitQtyMin`  | `number`  | `0`                                          | no    | The minimum number of units you must add to this category.                                  |
+| `categoryUnitQtyMax`  | `number`  |                                              | no    | The maximum number of units you can add to this category. `0` = unlimited                   |
+| `categoryIsExclusive` | `boolean` | `false`                                      | no    | If `true`, unit quantity is shared among other categories under the  same `categoryHeading` |
+| `_isType`             | `string`  | `"artillery"` \| `"infantry"` \| `"vehicle"` | no    | metadata e.g. `"aircraft"`                                                                  |
+| `_dataType`           | `string`  | `"category"`                                 | no    | metadata.                                                                                   |
 
 <br>
 
@@ -103,21 +103,21 @@ Example
 
 ### `defaultUpgrades` object
 
-| key                     | type                               | default                                          | null | notes                                                                                                                                                          |
-| ----------------------- | ---------------------------------- | ------------------------------------------------ | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `upgradeName`           | `string`                           |                                                  | no   | Frontend use. First letter should be uppercase e.g. `Bazooka`                                                                                                  |
-| `upgradeID`             | `string`                           |                                                  | no   | Backend identifier. should begin with `upgrade...` e.g. `upgradeBazooka`                                                                                       |
-| `upgradeDescription`    | `string`                           |                                                  | no   | Frontend use. Taken from official text                                                                                                                         |
-| `upgradeTargets`        | `string`                           | `"selection"` \|\| `"unit"`                      | no   | `"selection"` if the upgrade applies to only a model(s)<br>`"unit"` if the upgrade applies to the entire unit i.e. all models                                  |
-| `upgradeReplacesWeapon` | `boolean`                          |                                                  | no   | if `true`, the quantity of the model's original weapon profile will be subtracted                                                                        |
-| `upgradeQtyMax`         | `number`                           |                                                  | no   | The maximum number of times this upgrade can be added                                                                                                          |
-| `upgradePointsCost`     | `number`                           |                                                  | no   | The cost of adding this upgrade to one selection                                                                                                               |
-| `upgradeIsPerModel`     | `boolean`                          |                                                  | no   | If `true`, the upgrade applies to the entire unit or all selections. In addition, the following should be: `"upgradeTargets": "unit"` and `"upgradeQtyMax": 1` |
-| `upgradeIsExclusive`    | `boolean`                          | `false`                                          | no   | If `true`, only allows one exclusive upgrade to be added to the unit at a time                                                                                 |
-| `upgradeExtraReqs`      | [object](#upgradeextrareqs-object) | `null`                                           | yes  | Checks for any other requirements needed before adding this upgrade                                                                                            |
-| `upgradeAddsProfile`    | `string`                           |                                                  | no   | References a `profileID`                                                                                                                                       |
-| `_isType`               | `string`                           | `"artillery"` \|\| `"infantry"` \|\| `"vehicle"` | no   | metadata. The unit type this upgrade applies to                                                                                                                |
-| `_dataType`             | `string`                           | `"upgrade"`                                      | no   | metadata                                                                                                                                                       |
+| key                     | type                               | default                                      | null | notes                                                                                                                                                          |
+| ----------------------- | ---------------------------------- | -------------------------------------------- | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `upgradeName`           | `string`                           |                                              | no   | Frontend use e.g. `Bazooka`                                                                                                                                    |
+| `upgradeID`             | `string`                           |                                              | no   | Backend identifier e.g. `upgradeBazooka`                                                                                                                       |
+| `upgradeDescription`    | `string`                           |                                              | no   | Frontend use. Taken from official text                                                                                                                         |
+| `upgradeTargets`        | `string`                           | `"selection"` \| `"unit"`                    | no   | `"selection"` if the upgrade applies to only a model(s)<br>`"unit"` if the upgrade applies to the entire unit i.e. all models                                  |
+| `upgradeReplacesWeapon` | `boolean`                          |                                              | no   | if `true`, the quantity of the model's original weapon profile will be subtracted                                                                              |
+| `upgradeQtyMax`         | `number`                           |                                              | no   | The maximum number of times this upgrade can be added                                                                                                          |
+| `upgradePointsCost`     | `number`                           |                                              | no   | The cost of adding this upgrade to one selection                                                                                                               |
+| `upgradeIsPerModel`     | `boolean`                          |                                              | no   | If `true`, the upgrade applies to the entire unit or all selections. In addition, the following should be: `"upgradeTargets": "unit"` and `"upgradeQtyMax": 1` |
+| `upgradeIsExclusive`    | `boolean`                          | `false`                                      | no   | If `true`, only allows one exclusive upgrade to be added to the unit at a time                                                                                 |
+| `upgradeExtraReqs`      | [object](#upgradeextrareqs-object) | `null`                                       | yes  | Checks for any other requirements needed before adding this upgrade                                                                                            |
+| `upgradeAddsProfile`    | `string`                           |                                              | no   | References a `profileID`                                                                                                                                       |
+| `_isType`               | `string`                           | `"artillery"` \| `"infantry"` \| `"vehicle"` | no   | metadata. The unit type this upgrade applies to                                                                                                                |
+| `_dataType`             | `string`                           | `"upgrade"`                                  | no   | metadata                                                                                                                                                       |
 
 <br>
 
@@ -148,7 +148,7 @@ Example (taken from `upgradeARInfantry`)
 
 You can modify existing available upgrades for an object to use. 
 
-As with all custom items, first reference the original id under `upgradesAvailable` and then include the same id in a new object under `upgradesCustom`, followed by any field you would like to change. Remember you don't have to copy and paste the entire entry except the `upgradeID` and the field(s) you would like to change. 
+As with all custom items, first reference the original id under `upgradesAvailable` and then include the same id in a new object under `upgradesCustom`, followed by the field(s) you would like to change. 
 
 Example taken from `heerGrenadierSquadVeteran`:
 ```json
@@ -165,10 +165,15 @@ Example taken from `heerGrenadierSquadVeteran`:
 	]
 }
 ```
+> In the example above, we take the existing upgrade `upgradeARInfantry` and modify its description and maximum quantity the upgrade can be taken. Remember you do not have to copy and paste the entire entry except the `upgradeID` and the field(s) you would like to change. 
+
+<br>
+
+### Adding a new upgrade (single-use)
 
 You can also add a new upgrade for one unit/ object to use.
 
-The app will recognise a new custom upgrade when `"upgradeID": null` because it does not reference an upgrade from the `defaultUpgrades` list. Custom upgrades created in this way require all fields to be filled out following the [`defaultUpgrades` object](#defaultupgrades-object).
+The app will recognise a new custom upgrade when `"upgradeID": null` because it does not reference an existing upgrade from the `defaultUpgrades` list. Custom upgrades created in this way require all fields to be filled out following the [`defaultUpgrades` object](#defaultupgrades-object).
 
 <br>
 
@@ -197,29 +202,28 @@ Example - `includedUnits`
 
 ### Upgrades List
 
-| name               | id                            | upgradeTargets | _isType    |
-| ------------------ | ----------------------------- | -------------- | ---------- |
-| Anti-tank Grenades | `upgradeAntitankGrenades`     | `unit`         | `infantry` |
-| Assault Rifle      | `upgradeARInfantry`           | `selection`    | `infantry` |
-| Assault Rifle      | `upgradeARNCO`                | `selection`    | `infantry` |
-| Bicycles           | `upgradeBicycle`              | `unit`         | `infantry` |
-| Flamethrower       | `upgradeFlamethrowerInfantry` | `selection`    | `infantry` |
-| Flamethrower       | `upgradeFlamethrowerVehicle`  | `selection`    | `vehicle`  |
-| LMG                | `upgradeLMGInfantry`          | `selection`    | `infantry` |
-| Motorbikes         | `upgradeMotorbike`            | `unit`         | `infantry` |
-| Panzerfaust        | `upgradePanzerfaust`          | `selection`    | `infantry` |
-| SMG                | `upgradeSMGInfantry`          | `selection`    | `infantry` |
-| SMG                | `upgradeSMGNCO`               | `selection`    | `infantry` |
-| ...                | `...`                         | `selection`    | `infantry` |
-| ...                | `...`                         | `selection`    | `infantry` |
-| ...                | `...`                         | `selection`    | `infantry` |
-| ...                | `...`                         | `selection`    | `infantry` |
-| ...                | `...`                         | `selection`    | `infantry` |
-| ...                | `...`                         | `selection`    | `infantry` |
-| ...                | `...`                         | `selection`    | `infantry` |
-| ...                | `...`                         | `selection`    | `infantry` |
-| ...                | `...`                         | `selection`    | `infantry` |
-| ...                | `...`                         | `selection`    | `infantry` |
+| upgrade             | id                            | upgradeTargets | profile                | _isType    |
+| ------------------- | ----------------------------- | -------------- | ---------------------- | ---------- |
+| Anti-tank Grenades  | `upgradeAntitankGrenades`     | `unit`         | `antiTankGrenades`     | `infantry` |
+| Assault Rifle       | `upgradeARInfantry`           | `selection`    | `assaultRifle`         | `infantry` |
+| Assault Rifle (NCO) | `upgradeARNCO`                | `selection`    | `assaultRifle`         | `infantry` |
+| Bicycles            | `upgradeBicycle`              | `unit`         | `bicycle`              | `infantry` |
+| Flamethrower        | `upgradeFlamethrowerInfantry` | `selection`    | `flamethrowerInfantry` | `infantry` |
+| Flamethrower        | `upgradeFlamethrowerVehicle`  | `selection`    | `flamethrowerVehicle`  | `vehicle`  |
+| LMG                 | `upgradeLMGInfantry`          | `selection`    | `LMG`                  | `infantry` |
+| Motorbikes          | `upgradeMotorbike`            | `unit`         | `motorbike`            | `infantry` |
+| Panzerfaust         | `upgradePanzerfaust`          | `selection`    | `panzerfaust`          | `infantry` |
+| SMG                 | `upgradeSMGInfantry`          | `selection`    | `submachineGun`        | `infantry` |
+| SMG (NCO)           | `upgradeSMGNCO`               | `selection`    | `submachineGun`        | `infantry` |
+| ...                 | `...`                         | `selection`    |                        | `infantry` |
+| ...                 | `...`                         | `selection`    |                        | `infantry` |
+| ...                 | `...`                         | `selection`    |                        | `infantry` |
+| ...                 | `...`                         | `selection`    |                        | `infantry` |
+| ...                 | `...`                         | `selection`    |                        | `infantry` |
+| ...                 | `...`                         | `selection`    |                        | `infantry` |
+| ...                 | `...`                         | `selection`    |                        | `infantry` |
+| ...                 | `...`                         | `selection`    |                        | `infantry` |
+| ...                 | `...`                         | `selection`    |                        | `infantry` |
 
 ---
 
@@ -229,8 +233,22 @@ Example - `includedUnits`
 
 ## Special Rules
 
+Special rules may apply to various objects, such as platoons, theater selectors, units, and weapon profiles. These rules are located under `defaultSpecialRules` in the data file.
+
+
 ### `defaultSpecialRules` object
 
+| key                      | type                      | default                                      | nulls | notes                                    |
+| ------------------------ | ------------------------- | -------------------------------------------- | ----- | ---------------------------------------- |
+| `specialRuleName`        | `string`                  |                                              | no    | Frontend use e.g. `"Assault"`            |
+| `specialRuleID`          | `string`                  |                                              | no    | Backend identifier  e.g. `"ruleAssault"` |
+| `specialRuleDescription` | `string`                  |                                              | no    | The official rule text                   |
+| `_source`                | [object](#_source-object) |                                              | no    | The source of this rule                  |
+| `_isType`                | `string`                  | `"artillery"` \| `"infantry"` \| `"vehicle"` | no    | metadata                                 |
+| `_dataType`              | `string`                  | `"rule"`                                     | no    | metadata.                                |
+
+
+Example taken from `ruleGunShield`
 ```json
 "defaultSpecialRules": [
 	{
@@ -250,7 +268,7 @@ Example - `includedUnits`
 
 Although rare, you can modify existing rules for an object to use. 
 
-As with all custom items, first reference the original id under `specialRulesIncluded` and then include the same id in a new object under `specialRulesCustom`, followed by any field you would like to change. Remember you don't have to copy and paste the entire entry except the `specialRuleID` and the field(s) you would like to change. 
+As with all custom items, first reference the original id under `specialRulesIncluded` and then include the same id in a new object under `specialRulesCustom`, followed by the field(s) you would like to change.
 
 ```json
  "unitSpecialRules": {
@@ -268,15 +286,15 @@ As with all custom items, first reference the original id under `specialRulesInc
 	]
 },
 ```
+> In the example above, we take the existing rule `ruleLowVelocity` and modify its description and the source where this rule is found. Remember you do not have to copy and paste the entire entry except the `specialRuleID` and the field(s) you would like to change. 
 
+<br>
 
 ### Adding a new rule (single-use)
 
 You can also add a new rule for one unit/ object to use.
 
-The app will recognise a new custom rule when `"specialRuleID": null` because it does not reference a rule from the `defaultSpecialRules` list. Custom rules created in this way require all fields to be filled out following the [`defaultSpecialRules` object](#defaultspecialrules-object).
-
-  
+The app will recognise a new custom rule when `"specialRuleID": null` because it does not reference an existing rule from the `defaultSpecialRules` list. Custom rules created in this way require all fields to be filled out following the [`defaultSpecialRules` object](#defaultspecialrules-object).
 
 Example taken from `panzerIIIHJ`:
 ```json
@@ -303,8 +321,13 @@ Example taken from `panzerIIIHJ`:
 
 ## objects miscellaneous
 
+This section includes miscellaneous objects used throughout the data file
+
+<br>
+
 ### `_source` object
 
+The `_source` object references the original source of data.
 
 `{ "_source": {string: number} }` = source name and page  
 `{ "_source": {string: [number, number, ...]} }` = source name and multiple pages  
@@ -315,17 +338,18 @@ Example - The source of some data can be found in...
 ```json
 {
   "source": {
-    "Book_A": [10, 56],
-	"Book_B": 23,
-	"PDF_A": null 
+    "Book_A": 23,
+	"Book_B": [10, 56],
+	"PDF_A": null, 
 	"PDF_B": 12
   }
 }
 ```
-- Book_A: on pages 10 and 56
-- Book_B: on page 23
-- PDF_A: no page given 
-- PDF_B: on page 12
+In the above example, the sources are...
+> `Book_A`: on page 23,  
+> `Book_B`: on pages 10 and 56,  
+> `PDF_A`: no page given,  
+> `PDF_B`: on page 12  
 
 
 ---

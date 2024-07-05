@@ -39,3 +39,14 @@
 .read-the-docs {
   color: #888;
 }
+
+.border-grey-box {
+  color: #888;
+  border: 1px;
+  border-style:solid;
+  padding-bottom: 20px;
+}
+
+.pre-align-left {
+  text-align: left;
+}

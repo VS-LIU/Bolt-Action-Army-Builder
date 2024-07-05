@@ -1,5 +1,6 @@
 import { JSXElementConstructor, ReactElement, Suspense, lazy } from 'react'
 import reactLogo from '../assets/react.svg'
+import BA_3rd_Title from '../assets/BA_3rd_Title.png'
 import './App.css'
 import { ArmyList } from '../features/listObject/list'
 import ListView from '../features/viewList/ListView'
@@ -22,6 +23,9 @@ export default function App() {
 
   return (
     <>
+    <div>
+      <img src={BA_3rd_Title} alt="Bolt Action 3rd Edition Title" />
+    </div>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
@@ -30,7 +34,7 @@ export default function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Bolt Action Army Builder</h1>
 
       <Suspense fallback={<p>Loading card component...</p>}>
         <Card />

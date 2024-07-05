@@ -554,468 +554,529 @@
         "_dataType": "category"
       }
     ],
-    "defaultUnitsInfantry": [
-      {
-        "unitName": "Heer Infantry Squad",
-        "unitID": "heerInfantrySquad",
-        "unitSubtitle": null,
-        "unitCategoryLimit": null,
-        "unitPointsBase": {
-          "Inexperienced": null,
-          "Regular": 50,
-          "Veteran": null
-        },
-        "unitPointsAdd": {
-          "Inexperienced": null,
-          "Regular": 10,
-          "Veteran": null
-        },
-        "unitVeterancyOptions": [
-          "Regular"
-        ],
-        "_source": {
-          "Bolt Action 2nd Edition Rulebook": null
-        },
-        "unitSpecialRules": {
-          "specialRulesIncluded": [],
-          "specialRulesCustom": []
-        },
-        "unitUpgrades": {
-          "upgradesAvailable": [
-            "upgradeAntitankGrenades",
-            "upgradeBicycle"
-          ],
-          "upgradesCustom": []
-        },
-        "unitDamageValue": 4,
-        "unitComposition": [
-          {
-            "selectionName": "NCO",
-            "selectionID": "selectionNCO",
-            "selectionQtyMin": 1,
-            "selectionQtyMax": 1,
-            "selectionVeterancy": "Regular",
-            "selectionProfiles": {
-              "Rifle": 1
-            },
-            "selectionUpgrades": {
-              "upgradesAvailable": [
-                "upgradeSMGNCO"
-              ],
-              "upgradesCustom": []
-            },
-            "_dataType": "selection"
+    "defaultUnitsInfantry": {
+      "defaultInfantry": [
+        {
+          "unitName": "Heer Infantry Squad",
+          "unitID": "heerInfantrySquad",
+          "unitSubtitle": null,
+          "unitCategoryLimit": null,
+          "unitPointsBase": {
+            "Inexperienced": null,
+            "Regular": 50,
+            "Veteran": null
           },
-          {
-            "selectionName": "Infantry",
-            "selectionID": "selectionInfantry",
-            "selectionQtyMin": 4,
-            "selectionQtyMax": 9,
-            "selectionVeterancy": "Regular",
-            "selectionProfiles": {
-              "Rifle": 4
-            },
-            "selectionUpgrades": {
-              "upgradesAvailable": [
-                "upgradeLMGInfantry"
-              ],
-              "upgradesCustom": []
-            },
-            "_dataType": "selection"
-          }
-        ],
-        "_isType": "infantry",
-        "_dataType": "unit"
-      },
-      {
-        "unitName": "Heer Infantry Squad (Veteran)",
-        "unitID": "heerInfantrySquadVeteran",
-        "unitSubtitle": null,
-        "unitCategoryLimit": null,
-        "unitPointsBase": {
-          "Inexperienced": null,
-          "Regular": null,
-          "Veteran": 65
-        },
-        "unitPointsAdd": {
-          "Inexperienced": null,
-          "Regular": null,
-          "Veteran": 13
-        },
-        "unitVeterancyOptions": [
-          "Veteran"
-        ],
-        "_source": {
-          "Armies of Germany 2nd Edition": null
-        },
-        "unitSpecialRules": {
-          "specialRulesIncluded": [],
-          "specialRulesCustom": []
-        },
-        "unitUpgrades": {
-          "upgradesAvailable": [
-            "upgradeAntitankGrenades",
-            "upgradeBicycle"
-          ],
-          "upgradesCustom": []
-        },
-        "unitDamageValue": 5,
-        "unitComposition": [
-          {
-            "selectionName": "NCO",
-            "selectionID": "selectionNCO",
-            "selectionQtyMin": 1,
-            "selectionQtyMax": 1,
-            "selectionVeterancy": "Veteran",
-            "selectionProfiles": {
-              "Rifle": 1
-            },
-            "selectionUpgrades": {
-              "upgradesAvailable": [
-                "upgradeSMGNCO"
-              ],
-              "upgradesCustom": []
-            },
-            "_dataType": "selection"
+          "unitPointsAdd": {
+            "Inexperienced": null,
+            "Regular": 10,
+            "Veteran": null
           },
-          {
-            "selectionName": "Infantry",
-            "selectionID": "selectionInfantry",
-            "selectionQtyMin": 4,
-            "selectionQtyMax": 9,
-            "selectionVeterancy": "Veteran",
-            "selectionProfiles": {
-              "Rifle": 4
-            },
-            "selectionUpgrades": {
-              "upgradesAvailable": [
-                "upgradeLMGInfantry"
-              ],
-              "upgradesCustom": []
-            },
-            "_dataType": "selection"
-          }
-        ],
-        "_isType": "infantry",
-        "_dataType": "unit"
-      },
-      {
-        "unitName": "Kradschützen Squad",
-        "unitID": "kradschutzenSquad",
-        "unitSubtitle": null,
-        "unitCategoryLimit": null,
-        "unitPointsBase": {
-          "Inexperienced": null,
-          "Regular": 60,
-          "Veteran": null
-        },
-        "unitPointsAdd": {
-          "Inexperienced": null,
-          "Regular": 10,
-          "Veteran": null
-        },
-        "unitVeterancyOptions": [
-          "Regular"
-        ],
-        "_source": {
-          "Armies of Germany 2nd Edition": null
-        },
-        "unitSpecialRules": {
-          "specialRulesIncluded": [],
-          "specialRulesCustom": []
-        },
-        "unitUpgrades": {
-          "upgradesAvailable": [
-            "upgradeMotorbike"
+          "unitVeterancyOptions": [
+            "Regular"
           ],
-          "upgradesCustom": []
-        },
-        "unitDamageValue": 4,
-        "unitComposition": [
-          {
-            "selectionName": "NCO",
-            "selectionID": "selectionNCO",
-            "selectionQtyMin": 1,
-            "selectionQtyMax": 1,
-            "selectionVeterancy": "Regular",
-            "selectionProfiles": {
-              "Rifle": 1
-            },
-            "selectionUpgrades": {
-              "upgradesAvailable": [
-                "upgradeSMGNCO"
-              ],
-              "upgradesCustom": []
-            },
-            "_dataType": "selection"
+          "_source": {
+            "Bolt Action 2nd Edition Rulebook": null
           },
-          {
-            "selectionName": "Infantry",
-            "selectionID": "selectionInfantry",
-            "selectionQtyMin": 5,
-            "selectionQtyMax": 8,
-            "selectionVeterancy": "Regular",
-            "selectionProfiles": {
-              "Rifle": 5
+          "unitSpecialRules": {
+            "specialRulesIncluded": [],
+            "specialRulesCustom": []
+          },
+          "unitUpgrades": {
+            "upgradesAvailable": [
+              "upgradeAntitankGrenades",
+              "upgradeBicycle"
+            ],
+            "upgradesCustom": []
+          },
+          "unitDamageValue": 4,
+          "unitComposition": [
+            {
+              "selectionName": "NCO",
+              "selectionID": "selectionNCO",
+              "selectionQtyMin": 1,
+              "selectionQtyMax": 1,
+              "selectionVeterancy": "Regular",
+              "selectionProfiles": {
+                "Rifle": 1
+              },
+              "selectionUpgrades": {
+                "upgradesAvailable": [
+                  "upgradeSMGNCO"
+                ],
+                "upgradesCustom": []
+              },
+              "_dataType": "selection"
             },
-            "selectionUpgrades": {
-              "upgradesAvailable": [
-                "upgradeLMGInfantry",
-                "upgradeSMGInfantry"
-              ],
-              "upgradesCustom": []
-            },
-            "_dataType": "selection"
-          }
-        ],
-        "unitDescription": "Kradschützen, or motorcycle troops, were a common part of German panzer divisions until 1942, by which time they had largely been replaced by panzer grenadiers mounted in armoured carriers. Their manpower was often recruited from former cavalry units. Although transported on BMW and Zündapp motorcycles (usually with sidecars), these units dismounted to fight. Their missions were to rapidly outflank the enemy, seize forward areas and act as fast reconnaissance units.",
-        "_isType": "infantry",
-        "_dataType": "unit"
-      },
-      {
-        "unitName": "Heer Grenadier Squad",
-        "unitID": "heerGrenadierSquad",
-        "unitSubtitle": null,
-        "unitCategoryLimit": null,
-        "unitPointsBase": {
-          "Inexperienced": null,
-          "Regular": 50,
-          "Veteran": null
-        },
-        "unitPointsAdd": {
-          "Inexperienced": null,
-          "Regular": 10,
-          "Veteran": null
-        },
-        "unitVeterancyOptions": [
-          "Regular"
-        ],
-        "_source": {
-          "Armies of Germany 2nd Edition": null
-        },
-        "unitSpecialRules": {
-          "specialRulesIncluded": [],
-          "specialRulesCustom": []
-        },
-        "unitUpgrades": {
-          "upgradesAvailable": [
-            "upgradeAntitankGrenades"
+            {
+              "selectionName": "Infantry",
+              "selectionID": "selectionInfantry",
+              "selectionQtyMin": 4,
+              "selectionQtyMax": 9,
+              "selectionVeterancy": "Regular",
+              "selectionProfiles": {
+                "Rifle": 4
+              },
+              "selectionUpgrades": {
+                "upgradesAvailable": [
+                  "upgradeLMGInfantry"
+                ],
+                "upgradesCustom": []
+              },
+              "_dataType": "selection"
+            }
           ],
-          "upgradesCustom": []
+          "_isType": "infantry",
+          "_dataType": "unit"
         },
-        "unitDamageValue": 4,
-        "unitComposition": [
-          {
-            "selectionName": "NCO",
-            "selectionID": "selectionNCO",
-            "selectionQtyMin": 1,
-            "selectionQtyMax": 1,
-            "selectionVeterancy": "Regular",
-            "selectionProfiles": {
-              "Rifle": 1
-            },
-            "selectionUpgrades": {
-              "upgradesAvailable": [
-                "upgradeARNCO",
-                "upgradeSMGNCO"
-              ],
-              "upgradesCustom": []
-            },
-            "_dataType": "selection"
+        {
+          "unitName": "Heer Infantry Squad (Veteran)",
+          "unitID": "heerInfantrySquadVeteran",
+          "unitSubtitle": null,
+          "unitCategoryLimit": null,
+          "unitPointsBase": {
+            "Inexperienced": null,
+            "Regular": null,
+            "Veteran": 65
           },
-          {
-            "selectionName": "Infantry",
-            "selectionID": "selectionInfantry",
-            "selectionQtyMin": 4,
-            "selectionQtyMax": 9,
-            "selectionVeterancy": "Regular",
-            "selectionProfiles": {
-              "Rifle": 4
-            },
-            "selectionUpgrades": {
-              "upgradesAvailable": [
-                "upgradeARInfantry",
-                "upgradeLMGInfantry",
-                "upgradePanzerfaust",
-                "upgradeSMGInfantry"
-              ],
-              "upgradesCustom": []
-            },
-            "_dataType": "selection"
-          }
-        ],
-        "unitDescription": "In 1943 the title of 'Infantry' was changed to 'Grenadier' to improve esprit de corps and give the poor infantry some of the vaunted panzer grenadier's reputation and kudos. German grenadiers were provided with the best light machine gun of the war and some squads carried two. By the late war, most German grenadier squads were carrying a proportion of StG44 assault rifles or submachine guns instead of rifles to increase their firepower against an enemy increasingly equipped with submachine guns and semi-automatic rifles. However, the exact weaponry carried could vary greatly in practice, and so we allow a squad to be built as follows.",
-        "_isType": "infantry",
-        "_dataType": "unit"
-      },
-      {
-        "unitName": "Heer Grenadier Squad (Veteran)",
-        "unitID": "heerGrenadierSquadVeteran",
-        "unitSubtitle": null,
-        "unitCategoryLimit": null,
-        "unitPointsBase": {
-          "Inexperienced": null,
-          "Regular": null,
-          "Veteran": 65
-        },
-        "unitPointsAdd": {
-          "Inexperienced": null,
-          "Regular": null,
-          "Veteran": 13
-        },
-        "unitVeterancyOptions": [
-          "Veteran"
-        ],
-        "_source": {
-          "Armies of Germany 2nd Edition": null
-        },
-        "unitSpecialRules": {
-          "specialRulesIncluded": [],
-          "specialRulesCustom": []
-        },
-        "unitUpgrades": {
-          "upgradesAvailable": [
-            "upgradeAntitankGrenades"
+          "unitPointsAdd": {
+            "Inexperienced": null,
+            "Regular": null,
+            "Veteran": 13
+          },
+          "unitVeterancyOptions": [
+            "Veteran"
           ],
-          "upgradesCustom": []
-        },
-        "unitDamageValue": 5,
-        "unitComposition": [
-          {
-            "selectionName": "NCO",
-            "selectionID": "selectionNCO",
-            "selectionQtyMin": 1,
-            "selectionQtyMax": 1,
-            "selectionVeterancy": "Regular",
-            "selectionProfiles": {
-              "Rifle": 1
-            },
-            "selectionUpgrades": {
-              "upgradesAvailable": [
-                "upgradeARNCO",
-                "upgradeSMGNCO"
-              ],
-              "upgradesCustom": []
-            },
-            "_dataType": "selection"
+          "_source": {
+            "Armies of Germany 2nd Edition": null
           },
-          {
-            "selectionName": "Infantry",
-            "selectionID": "selectionInfantry",
-            "selectionQtyMin": 4,
-            "selectionQtyMax": 9,
-            "selectionVeterancy": "Regular",
-            "selectionProfiles": {
-              "Rifle": 4
+          "unitSpecialRules": {
+            "specialRulesIncluded": [],
+            "specialRulesCustom": []
+          },
+          "unitUpgrades": {
+            "upgradesAvailable": [
+              "upgradeAntitankGrenades",
+              "upgradeBicycle"
+            ],
+            "upgradesCustom": []
+          },
+          "unitDamageValue": 5,
+          "unitComposition": [
+            {
+              "selectionName": "NCO",
+              "selectionID": "selectionNCO",
+              "selectionQtyMin": 1,
+              "selectionQtyMax": 1,
+              "selectionVeterancy": "Veteran",
+              "selectionProfiles": {
+                "Rifle": 1
+              },
+              "selectionUpgrades": {
+                "upgradesAvailable": [
+                  "upgradeSMGNCO"
+                ],
+                "upgradesCustom": []
+              },
+              "_dataType": "selection"
             },
-            "selectionUpgrades": {
-              "upgradesAvailable": [
-                "upgradeARInfantry",
-                "upgradeLMGInfantry",
-                "upgradePanzerfaust",
-                "upgradeSMGInfantry"
-              ],
-              "upgradesCustom": [
-                {
-                  "upgradeID": "upgradeARInfantry",
-                  "upgradeDescription": "Up to 9 men can have assault rifles instead of rifles for +5pts",
-                  "upgradeQtyMax": 9
-                },
-                {
-                  "upgradeID": "upgradeLMGInfantry",
-                  "upgradeDescription": "Up to 2 men can have a light machine gun for +20pts - for each light machine gun included another man becomes the loader",
-                  "upgradeQtyMax": 2
-                },
-                {
-                  "upgradeID": "upgradeSMGInfantry",
-                  "upgradeDescription": "Up to 6 men can have submachine guns instead of rifles for +3pts each.",
-                  "upgradeQtyMax": 6
-                }
-              ]
-            },
-            "_dataType": "selection"
-          }
-        ],
-        "unitDescription": "Those men that survived quickly learnt the art of fieldcraft and became formidable opponents, battle-hardened and well-equipped - a match for any enemy infantry. Panzer grenadiers, the infantry of the panzer divisions, rode to battle in half-tracked, armoured carriers. Well, they did on paper, but in reality a shortage of half-tracks meant that only about 10 percent of panzer grenadier battalions had their carriers, and the other 90 percent relied upon trucks and fought on foot.",
-        "_isType": "infantry",
-        "_dataType": "unit"
-      },
-      {
-        "unitName": "Heer Pioneer Squad",
-        "unitID": "heerPioneerSquad",
-        "unitSubtitle": null,
-        "unitCategoryLimit": null,
-        "unitPointsBase": {
-          "Inexperienced": null,
-          "Regular": null,
-          "Veteran": 65
-        },
-        "unitPointsAdd": {
-          "Inexperienced": null,
-          "Regular": null,
-          "Veteran": 13
-        },
-        "unitVeterancyOptions": [
-          "Veteran"
-        ],
-        "_source": {
-          "Armies of Germany 2nd Edition": null
-        },
-        "unitSpecialRules": {
-          "specialRulesIncluded": [],
-          "specialRulesCustom": []
-        },
-        "unitUpgrades": {
-          "upgradesAvailable": [
-            "upgradeAntitankGrenades"
+            {
+              "selectionName": "Infantry",
+              "selectionID": "selectionInfantry",
+              "selectionQtyMin": 4,
+              "selectionQtyMax": 9,
+              "selectionVeterancy": "Veteran",
+              "selectionProfiles": {
+                "Rifle": 4
+              },
+              "selectionUpgrades": {
+                "upgradesAvailable": [
+                  "upgradeLMGInfantry"
+                ],
+                "upgradesCustom": []
+              },
+              "_dataType": "selection"
+            }
           ],
-          "upgradesCustom": []
+          "_isType": "infantry",
+          "_dataType": "unit"
         },
-        "unitDamageValue": 5,
-        "unitComposition": [
-          {
-            "selectionName": "NCO",
-            "selectionID": "selectionNCO",
-            "selectionQtyMin": 1,
-            "selectionQtyMax": 1,
-            "selectionVeterancy": "Veteran",
-            "selectionProfiles": {
-              "Rifle": 1
-            },
-            "selectionUpgrades": {
-              "upgradesAvailable": [
-                "upgradeSMGNCO"
-              ],
-              "upgradesCustom": []
-            },
-            "_dataType": "selection"
+        {
+          "unitName": "Kradschützen Squad",
+          "unitID": "kradschutzenSquad",
+          "unitSubtitle": null,
+          "unitCategoryLimit": null,
+          "unitPointsBase": {
+            "Inexperienced": null,
+            "Regular": 60,
+            "Veteran": null
           },
-          {
-            "selectionName": "Infantry",
-            "selectionID": "selectionInfantry",
-            "selectionQtyMin": 4,
-            "selectionQtyMax": 9,
-            "selectionVeterancy": "Veteran",
-            "selectionProfiles": {
-              "Rifle": 4
+          "unitPointsAdd": {
+            "Inexperienced": null,
+            "Regular": 10,
+            "Veteran": null
+          },
+          "unitVeterancyOptions": [
+            "Regular"
+          ],
+          "_source": {
+            "Armies of Germany 2nd Edition": null
+          },
+          "unitSpecialRules": {
+            "specialRulesIncluded": [],
+            "specialRulesCustom": []
+          },
+          "unitUpgrades": {
+            "upgradesAvailable": [
+              "upgradeMotorbike"
+            ],
+            "upgradesCustom": []
+          },
+          "unitDamageValue": 4,
+          "unitComposition": [
+            {
+              "selectionName": "NCO",
+              "selectionID": "selectionNCO",
+              "selectionQtyMin": 1,
+              "selectionQtyMax": 1,
+              "selectionVeterancy": "Regular",
+              "selectionProfiles": {
+                "Rifle": 1
+              },
+              "selectionUpgrades": {
+                "upgradesAvailable": [
+                  "upgradeSMGNCO"
+                ],
+                "upgradesCustom": []
+              },
+              "_dataType": "selection"
             },
-            "selectionUpgrades": {
-              "upgradesAvailable": [
-                "upgradeFlamethrowerInfantry",
-                "upgradeLMGInfantry",
-                "upgradeSMGInfantry"
-              ],
-              "upgradesCustom": []
+            {
+              "selectionName": "Infantry",
+              "selectionID": "selectionInfantry",
+              "selectionQtyMin": 5,
+              "selectionQtyMax": 8,
+              "selectionVeterancy": "Regular",
+              "selectionProfiles": {
+                "Rifle": 5
+              },
+              "selectionUpgrades": {
+                "upgradesAvailable": [
+                  "upgradeLMGInfantry",
+                  "upgradeSMGInfantry"
+                ],
+                "upgradesCustom": []
+              },
+              "_dataType": "selection"
+            }
+          ],
+          "unitDescription": "Kradschützen, or motorcycle troops, were a common part of German panzer divisions until 1942, by which time they had largely been replaced by panzer grenadiers mounted in armoured carriers. Their manpower was often recruited from former cavalry units. Although transported on BMW and Zündapp motorcycles (usually with sidecars), these units dismounted to fight. Their missions were to rapidly outflank the enemy, seize forward areas and act as fast reconnaissance units.",
+          "_isType": "infantry",
+          "_dataType": "unit"
+        },
+        {
+          "unitName": "Heer Grenadier Squad",
+          "unitID": "heerGrenadierSquad",
+          "unitSubtitle": null,
+          "unitCategoryLimit": null,
+          "unitPointsBase": {
+            "Inexperienced": null,
+            "Regular": 50,
+            "Veteran": null
+          },
+          "unitPointsAdd": {
+            "Inexperienced": null,
+            "Regular": 10,
+            "Veteran": null
+          },
+          "unitVeterancyOptions": [
+            "Regular"
+          ],
+          "_source": {
+            "Armies of Germany 2nd Edition": null
+          },
+          "unitSpecialRules": {
+            "specialRulesIncluded": [],
+            "specialRulesCustom": []
+          },
+          "unitUpgrades": {
+            "upgradesAvailable": [
+              "upgradeAntitankGrenades"
+            ],
+            "upgradesCustom": []
+          },
+          "unitDamageValue": 4,
+          "unitComposition": [
+            {
+              "selectionName": "NCO",
+              "selectionID": "selectionNCO",
+              "selectionQtyMin": 1,
+              "selectionQtyMax": 1,
+              "selectionVeterancy": "Regular",
+              "selectionProfiles": {
+                "Rifle": 1
+              },
+              "selectionUpgrades": {
+                "upgradesAvailable": [
+                  "upgradeARNCO",
+                  "upgradeSMGNCO"
+                ],
+                "upgradesCustom": []
+              },
+              "_dataType": "selection"
             },
-            "_dataType": "selection"
-          }
-        ],
-        "_isType": "infantry",
-        "_dataType": "unit"
-      }
-    ],
+            {
+              "selectionName": "Infantry",
+              "selectionID": "selectionInfantry",
+              "selectionQtyMin": 4,
+              "selectionQtyMax": 9,
+              "selectionVeterancy": "Regular",
+              "selectionProfiles": {
+                "Rifle": 4
+              },
+              "selectionUpgrades": {
+                "upgradesAvailable": [
+                  "upgradeARInfantry",
+                  "upgradeLMGInfantry",
+                  "upgradePanzerfaust",
+                  "upgradeSMGInfantry"
+                ],
+                "upgradesCustom": []
+              },
+              "_dataType": "selection"
+            }
+          ],
+          "unitDescription": "In 1943 the title of 'Infantry' was changed to 'Grenadier' to improve esprit de corps and give the poor infantry some of the vaunted panzer grenadier's reputation and kudos. German grenadiers were provided with the best light machine gun of the war and some squads carried two. By the late war, most German grenadier squads were carrying a proportion of StG44 assault rifles or submachine guns instead of rifles to increase their firepower against an enemy increasingly equipped with submachine guns and semi-automatic rifles. However, the exact weaponry carried could vary greatly in practice, and so we allow a squad to be built as follows.",
+          "_isType": "infantry",
+          "_dataType": "unit"
+        },
+        {
+          "unitName": "Heer Grenadier Squad (Veteran)",
+          "unitID": "heerGrenadierSquadVeteran",
+          "unitSubtitle": null,
+          "unitCategoryLimit": null,
+          "unitPointsBase": {
+            "Inexperienced": null,
+            "Regular": null,
+            "Veteran": 65
+          },
+          "unitPointsAdd": {
+            "Inexperienced": null,
+            "Regular": null,
+            "Veteran": 13
+          },
+          "unitVeterancyOptions": [
+            "Veteran"
+          ],
+          "_source": {
+            "Armies of Germany 2nd Edition": null
+          },
+          "unitSpecialRules": {
+            "specialRulesIncluded": [],
+            "specialRulesCustom": []
+          },
+          "unitUpgrades": {
+            "upgradesAvailable": [
+              "upgradeAntitankGrenades"
+            ],
+            "upgradesCustom": []
+          },
+          "unitDamageValue": 5,
+          "unitComposition": [
+            {
+              "selectionName": "NCO",
+              "selectionID": "selectionNCO",
+              "selectionQtyMin": 1,
+              "selectionQtyMax": 1,
+              "selectionVeterancy": "Regular",
+              "selectionProfiles": {
+                "Rifle": 1
+              },
+              "selectionUpgrades": {
+                "upgradesAvailable": [
+                  "upgradeARNCO",
+                  "upgradeSMGNCO"
+                ],
+                "upgradesCustom": []
+              },
+              "_dataType": "selection"
+            },
+            {
+              "selectionName": "Infantry",
+              "selectionID": "selectionInfantry",
+              "selectionQtyMin": 4,
+              "selectionQtyMax": 9,
+              "selectionVeterancy": "Regular",
+              "selectionProfiles": {
+                "Rifle": 4
+              },
+              "selectionUpgrades": {
+                "upgradesAvailable": [
+                  "upgradeARInfantry",
+                  "upgradeLMGInfantry",
+                  "upgradePanzerfaust",
+                  "upgradeSMGInfantry"
+                ],
+                "upgradesCustom": [
+                  {
+                    "upgradeID": "upgradeARInfantry",
+                    "upgradeDescription": "Up to 9 men can have assault rifles instead of rifles for +5pts",
+                    "upgradeQtyMax": 9
+                  },
+                  {
+                    "upgradeID": "upgradeLMGInfantry",
+                    "upgradeDescription": "Up to 2 men can have a light machine gun for +20pts - for each light machine gun included another man becomes the loader",
+                    "upgradeQtyMax": 2
+                  },
+                  {
+                    "upgradeID": "upgradeSMGInfantry",
+                    "upgradeDescription": "Up to 6 men can have submachine guns instead of rifles for +3pts each.",
+                    "upgradeQtyMax": 6
+                  }
+                ]
+              },
+              "_dataType": "selection"
+            }
+          ],
+          "unitDescription": "Those men that survived quickly learnt the art of fieldcraft and became formidable opponents, battle-hardened and well-equipped - a match for any enemy infantry. Panzer grenadiers, the infantry of the panzer divisions, rode to battle in half-tracked, armoured carriers. Well, they did on paper, but in reality a shortage of half-tracks meant that only about 10 percent of panzer grenadier battalions had their carriers, and the other 90 percent relied upon trucks and fought on foot.",
+          "_isType": "infantry",
+          "_dataType": "unit"
+        },
+        {
+          "unitName": "Heer Pioneer Squad",
+          "unitID": "heerPioneerSquad",
+          "unitSubtitle": null,
+          "unitCategoryLimit": null,
+          "unitPointsBase": {
+            "Inexperienced": null,
+            "Regular": null,
+            "Veteran": 65
+          },
+          "unitPointsAdd": {
+            "Inexperienced": null,
+            "Regular": null,
+            "Veteran": 13
+          },
+          "unitVeterancyOptions": [
+            "Veteran"
+          ],
+          "_source": {
+            "Armies of Germany 2nd Edition": null
+          },
+          "unitSpecialRules": {
+            "specialRulesIncluded": [],
+            "specialRulesCustom": []
+          },
+          "unitUpgrades": {
+            "upgradesAvailable": [
+              "upgradeAntitankGrenades"
+            ],
+            "upgradesCustom": []
+          },
+          "unitDamageValue": 5,
+          "unitComposition": [
+            {
+              "selectionName": "NCO",
+              "selectionID": "selectionNCO",
+              "selectionQtyMin": 1,
+              "selectionQtyMax": 1,
+              "selectionVeterancy": "Veteran",
+              "selectionProfiles": {
+                "Rifle": 1
+              },
+              "selectionUpgrades": {
+                "upgradesAvailable": [
+                  "upgradeSMGNCO"
+                ],
+                "upgradesCustom": []
+              },
+              "_dataType": "selection"
+            },
+            {
+              "selectionName": "Infantry",
+              "selectionID": "selectionInfantry",
+              "selectionQtyMin": 4,
+              "selectionQtyMax": 9,
+              "selectionVeterancy": "Veteran",
+              "selectionProfiles": {
+                "Rifle": 4
+              },
+              "selectionUpgrades": {
+                "upgradesAvailable": [
+                  "upgradeFlamethrowerInfantry",
+                  "upgradeLMGInfantry",
+                  "upgradeSMGInfantry"
+                ],
+                "upgradesCustom": []
+              },
+              "_dataType": "selection"
+            }
+          ],
+          "_isType": "infantry",
+          "_dataType": "unit"
+        }
+      ],
+      "defaultTeams": [
+        {
+          "unitName": "Machine Gun Team",
+          "unitID": "teamMMG",
+          "unitSubtitle": null,
+          "unitCategoryLimit": null,
+          "unitPointsBase": {
+            "Inexperienced": 35,
+            "Regular": 50,
+            "Veteran": 65
+          },
+          "unitPointsAdd": {
+            "Inexperienced": null,
+            "Regular": null,
+            "Veteran": null
+          },
+          "unitVeterancyOptions": [
+            "Inexperienced",
+            "Regular",
+            "Veteran"
+          ],
+          "_source": {
+            "Armies of Germany 2nd Edition": null
+          },
+          "unitSpecialRules": {
+            "specialRulesIncluded": [
+              "ruleTeam",
+              "ruleFixed"
+            ],
+            "specialRulesCustom": []
+          },
+          "unitUpgrades": {
+            "upgradesAvailable": [],
+            "upgradesCustom": []
+          },
+          "unitDamageValue": null,
+          "unitComposition": [
+            {
+              "selectionName": "Crew",
+              "selectionID": "selectionInfantry",
+              "selectionQtyMin": 3,
+              "selectionQtyMax": 3,
+              "selectionVeterancy": null,
+              "selectionProfiles": {
+                "MMG": 1
+              },
+              "selectionUpgrades": {
+                "upgradesAvailable": [],
+                "upgradesCustom": []
+              },
+              "_dataType": "selection"
+            }
+          ],
+          "unitDescription": "The Germans were equipped with two excellent machine guns in the MG34 and rapid-firing MG42 - known to Allied troops as 'Hitler's Buzz Saw' because of its distinctive noise, or ‘Spandau’. Unlike other armies, the Germans used the same machine gun both as a squad weapon from its bipod and as a tripod-mounted support weapon. The tripod mount provided a much more stable firing platform and made it easier to keep up a sustained fire using a belt feed. We therefore treat the tripod-mounted gun as a medium machine gun, while the squad weapon is treated as a light machine gun.",
+          "_isType": "infantry",
+          "_dataType": "unit"
+        },
+        {}
+      ]
+    },
     "defaultUnitsArtillery": {
-      "antiTankGuns": [
+      "defaultAntiTankGuns": [
         {
           "unitName": "75mm Pak 40",
           "unitID": "75Pak40",
@@ -2479,7 +2540,7 @@
       {
         "specialRuleName": "Team Weapon",
         "specialRuleID": "ruleTeamWeapon",
-        "specialRuleDescription": "A minimum of two crew is always needed to fire at full effect. If only one man remains then the weapon suffers a -1 'to hit' penalty. When the model carrying/ firing the support team weapon is killed, the entire team is considered to be out of action. Crewed weapons and weapons teams reduced to one last crewman also suffer a -1 penalty to its morale value.",
+        "specialRuleDescription": "A minimum of two crew is always needed to fire at full effect. If only one man remains then the weapon suffers a -1 'to hit' penalty. When the model carrying/ firing the support team weapon is killed, the entire team is considered to be out of action. Crewed weapons and weapons teams reduced to one last crewman also suffer a -1 penalty to its morale value. Note in the game crew members modeled with small-arms never fire these weapons and are therefore not allocated personal armament in the army lists.",
         "_source": {
           "Bolt Action 2nd Edition Rulebook": 73
         },

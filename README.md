@@ -6,19 +6,17 @@ This repo was setup using:
 > pnpm create vite@latest .  
 > framework: Others > create-vite-extra
 > template: ssr-react > Streaming > TypeScript
-> pnpm install  
+> pnpm install
+> pnpm add --save-dev @types/uuid
 ```
 To run dev server: 
 ```sh
 > pnpm run dev
 ```
 
-## Packages
+## Additional packages used
 
-```sh
-pnpm add uuid
-pnpm add --save-dev @types/uuid
-```
+- [uuid](https://www.npmjs.com/package/uuid) 
 
 
 ---

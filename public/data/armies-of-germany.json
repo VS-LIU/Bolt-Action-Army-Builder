@@ -1068,7 +1068,7 @@
               "_dataType": "selection"
             }
           ],
-          "unitDescription": "The Germans were equipped with two excellent machine guns in the MG34 and rapid-firing MG42 - known to Allied troops as 'Hitler's Buzz Saw' because of its distinctive noise, or ‘Spandau’. Unlike other armies, the Germans used the same machine gun both as a squad weapon from its bipod and as a tripod-mounted support weapon. The tripod mount provided a much more stable firing platform and made it easier to keep up a sustained fire using a belt feed. We therefore treat the tripod-mounted gun as a medium machine gun, while the squad weapon is treated as a light machine gun.",
+          "unitDescription": "The Germans were equipped with two excellent machine guns in the MG34 and rapid-firing MG42 - known to Allied troops as 'Hitler's Buzz Saw' because of its distinctive noise, or 'Spandau'. Unlike other armies, the Germans used the same machine gun both as a squad weapon from its bipod and as a tripod-mounted support weapon. The tripod mount provided a much more stable firing platform and made it easier to keep up a sustained fire using a belt feed. We therefore treat the tripod-mounted gun as a medium machine gun, while the squad weapon is treated as a light machine gun.",
           "_isType": "infantry",
           "_dataType": "unit"
         },
@@ -2405,6 +2405,46 @@
         "_dataType": "rule"
       },
       {
+        "specialRuleName": "Engineers",
+        "specialRuleID": "ruleEngineers",
+        "specialRuleDescription": "When a unit of engineers assaults a building, the defenders cannot benefit from the defensive position bonus (see page __). In addition, engineers have several advantages when it comes to the rules for minefields and other fortications (see page __).",
+        "_source": {
+          "Bolt Action 3rd Edition Rulebook": 120
+        },
+        "_isType": "infantry",
+        "_dataType": "rule"
+      },
+      {
+        "specialRuleName": "Fanatics",
+        "specialRuleID": "ruleFanatics",
+        "specialRuleDescription": "...",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": null
+        },
+        "_isType": "infantry",
+        "_dataType": "rule"
+      },
+      {
+        "specialRuleName": "Fieldcraft",
+        "specialRuleID": "ruleFieldcraft",
+        "specialRuleDescription": "...",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": null
+        },
+        "_isType": "infantry",
+        "_dataType": "rule"
+      },
+      {
+        "specialRuleName": "Green",
+        "specialRuleID": "ruleGreen",
+        "specialRuleDescription": "...",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": null
+        },
+        "_isType": "infantry",
+        "_dataType": "rule"
+      },
+      {
         "specialRuleName": "Gun Shield",
         "specialRuleID": "ruleGunShield",
         "specialRuleDescription": "If a gun is equipped with a gun shield, the die roll an enemy requires to score damage for a hit from the front arc of the gun as described above is increased by +1. This die roll is modified by the penetration value of the weapon in the usual way. Note that hits from HE (both direct and indirect fire), flamethrowers and close quarters attacks ignore the gun shield rule.",
@@ -2425,6 +2465,16 @@
         "_dataType": "rule"
       },
       {
+        "specialRuleName": "Infiltrator",
+        "specialRuleID": "ruleInfiltrator",
+        "specialRuleDescription": "...",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": null
+        },
+        "_isType": "infantry",
+        "_dataType": "rule"
+      },
+      {
         "specialRuleName": "Loader",
         "specialRuleID": "ruleLoader",
         "specialRuleDescription": "If the weapon is destroyed, the surviving loader simply reverts to an ordinary member of the squad. If the loader is killed or is not within an inch of the firer, the weapon suffers a -1 'to hit' penalty.",
@@ -2442,6 +2492,16 @@
           "Bolt Action 2nd Edition Rulebook": 207
         },
         "_isType": "vehicle",
+        "_dataType": "rule"
+      },
+      {
+        "specialRuleName": "Motorcycles",
+        "specialRuleID": "ruleMotorcycles",
+        "specialRuleDescription": "...",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": null
+        },
+        "_isType": "infantry",
         "_dataType": "rule"
       },
       {
@@ -2500,6 +2560,16 @@
         "specialRuleDescription": "Never suffer the -1 penetration modifier for firing at long range.",
         "_source": {
           "Bolt Action 2nd Edition Rulebook": 73
+        },
+        "_isType": "infantry",
+        "_dataType": "rule"
+      },
+      {
+        "specialRuleName": "Shirkers",
+        "specialRuleID": "ruleShirkers",
+        "specialRuleDescription": "...",
+        "_source": {
+          "Bolt Action 2nd Edition Rulebook": null
         },
         "_isType": "infantry",
         "_dataType": "rule"
